@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-06-16T01:00:39Z",
+  "updated_at": "2026-06-16T04:00:42Z",
   "assets": [
     {
       "name": "VOO",
       "display_name": "VOO",
       "currency": "USD",
       "current": 693.83,
-      "prev": 693.83,
-      "prev2": 681.95,
-      "prev3": 678.23,
+      "prev": 681.95,
+      "prev2": 678.23,
+      "prev3": 667.05,
       "stale": false
     },
     {
@@ -16,9 +16,9 @@
       "display_name": "AAPL",
       "currency": "USD",
       "current": 296.42,
-      "prev": 296.42,
-      "prev2": 291.13,
-      "prev3": 295.63,
+      "prev": 291.13,
+      "prev2": 295.63,
+      "prev3": 291.58,
       "stale": false
     },
     {
@@ -26,9 +26,9 @@
       "display_name": "AMZN",
       "currency": "USD",
       "current": 246.02,
-      "prev": 246.02,
-      "prev2": 238.55,
-      "prev3": 241.51,
+      "prev": 238.55,
+      "prev2": 241.51,
+      "prev3": 238.0,
       "stale": false
     },
     {
@@ -46,9 +46,9 @@
       "display_name": "NVDA",
       "currency": "USD",
       "current": 212.45,
-      "prev": 212.45,
-      "prev2": 205.19,
-      "prev3": 204.87,
+      "prev": 205.19,
+      "prev2": 204.87,
+      "prev3": 200.42,
       "stale": false
     },
     {
@@ -56,17 +56,17 @@
       "display_name": "TSLA",
       "currency": "USD",
       "current": 411.15,
-      "prev": 411.15,
-      "prev2": 406.43,
-      "prev3": 399.15,
+      "prev": 406.43,
+      "prev2": 399.15,
+      "prev3": 381.59,
       "stale": false
     },
     {
       "name": "BTC-USD",
       "display_name": "BTCUSD",
       "currency": "USD",
-      "current": 66214.19,
-      "prev": 66214.19,
+      "current": 66110.23,
+      "prev": 66110.23,
       "prev2": 65710.4,
       "prev3": 64421.32,
       "stale": false
@@ -75,8 +75,8 @@
       "name": "GC=F",
       "display_name": "Gold(CFD)",
       "currency": "USD",
-      "current": 4333.4,
-      "prev": 4333.4,
+      "current": 4352.3,
+      "prev": 4328.0,
       "prev2": 4215.0,
       "prev3": 4090.3,
       "stale": false
@@ -85,10 +85,10 @@
       "name": "0050.TW",
       "display_name": "TPE:0050",
       "currency": "TWD",
-      "current": 105.25,
-      "prev": 105.25,
-      "prev2": 101.95,
-      "prev3": 99.85,
+      "current": 105.8,
+      "prev": 105.8,
+      "prev2": 105.25,
+      "prev3": 101.95,
       "stale": false
     },
     {
@@ -97,8 +97,8 @@
       "currency": "TWD",
       "current": 2375.0,
       "prev": 2375.0,
-      "prev2": 2310.0,
-      "prev3": 2250.0,
+      "prev2": 2375.0,
+      "prev3": 2310.0,
       "stale": false
     }
   ]
