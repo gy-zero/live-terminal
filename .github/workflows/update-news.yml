@@ -49,6 +49,7 @@ jobs:
           USCARDFORUM_TOP_URL = "https://www.uscardforum.com/top"
           USCARDFORUM_TOP_JSON_URL = "https://www.uscardforum.com/top.json"
           USCARDFORUM_LATEST_JSON_URL = "https://www.uscardforum.com/latest.json"
+          USCARDFORUM_LATEST_HTML_URL = "https://www.uscardforum.com/latest"
           DOCTOR_OF_CREDIT_URL = "https://www.doctorofcredit.com/"
           FM_MAIN = "https://frequentmiler.com/feed/"
           FM_QUICK = "https://frequentmiler.com/category/quick-deals/feed/"
@@ -67,6 +68,16 @@ jobs:
               "Accept-Language": BROWSER_HEADERS["Accept-Language"],
               "Cache-Control": "no-cache",
               "Pragma": "no-cache",
+              "Referer": "https://www.uscardforum.com/latest",
+          }
+
+          HTML_HEADERS = {
+              "User-Agent": BROWSER_HEADERS["User-Agent"],
+              "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+              "Accept-Language": BROWSER_HEADERS["Accept-Language"],
+              "Cache-Control": "no-cache",
+              "Pragma": "no-cache",
+              "Referer": "https://www.uscardforum.com/",
           }
 
           REQUEST_TIMEOUT = 20
@@ -115,8 +126,13 @@ jobs:
               return request_with_retry(url, decode_text=False, timeout=REQUEST_TIMEOUT, headers=BROWSER_HEADERS)
 
 
-          def fetch_text(url):
-              return request_with_retry(url, decode_text=True, timeout=REQUEST_TIMEOUT, headers=BROWSER_HEADERS)
+          def fetch_text(url, headers=None):
+              return request_with_retry(
+                  url,
+                  decode_text=True,
+                  timeout=REQUEST_TIMEOUT,
+                  headers=headers or BROWSER_HEADERS
+              )
 
 
           def fetch_json(url):
@@ -337,80 +353,97 @@ jobs:
               return items
 
 
-def parse_uscardforum_top(url, max_items=15):
-    # 1) 先試 JSON API（top.json / latest.json）
-    for api_url in (USCARDFORUM_TOP_JSON_URL, USCARDFORUM_LATEST_JSON_URL):
-        try:
-            print(f"[uscardforum] fetching JSON {api_url}")
-            payload = fetch_json(api_url)
+          def extract_topics_from_uscardforum_html(html, max_items=15):
+              patterns = [
+                  re.compile(
+                      r'<a[^>]+href="/t/([^"/]+)/(\d+)"[^>]*class="[^"]*raw-topic-link[^"]*"[^>]*>(.*?)</a>',
+                      re.I | re.S
+                  ),
+                  re.compile(
+                      r'<a[^>]+class="[^"]*raw-topic-link[^"]*"[^>]+href="/t/([^"/]+)/(\d+)"[^>]*>(.*?)</a>',
+                      re.I | re.S
+                  ),
+                  re.compile(
+                      r'<a[^>]+href="/t/([^"/]+)/(\d+)"[^>]*>(.*?)</a>',
+                      re.I | re.S
+                  ),
+              ]
 
-            topic_list = payload.get("topic_list", {})
-            topics = topic_list.get("topics", [])
-            print(f"[uscardforum] raw topics count from {api_url}: {len(topics)}")
+              items = []
+              seen = set()
+              seen_url = set()
 
-            items = extract_topics_from_discourse_json(payload, max_items=max_items)
-            print(f"[uscardforum] parsed items count from {api_url}: {len(items)}")
+              for pattern in patterns:
+                  for match in pattern.finditer(html):
+                      slug = match.group(1).strip()
+                      topic_id = match.group(2).strip()
+                      title = clean_title(strip_tags(match.group(3)))
 
-            if items:
-                return items
-        except Exception as e:
-            print(f"[uscardforum] failed to fetch JSON {api_url}: {repr(e)}")
+                      if not title or len(title) < 4:
+                          continue
 
-    print("[uscardforum] JSON endpoints failed, trying HTML /latest fallback")
+                      article_url = f"https://www.uscardforum.com/t/{urllib.parse.quote(slug)}/{topic_id}"
 
-    # 2) JSON 失敗，改抓 /latest HTML 當 fallback
-    try:
-        html = fetch_text("https://www.uscardforum.com/latest")
-        # 簡單抓出主題區塊裡的 <a> 連結
-        # Discourse 預設每個主題的連結大致長這樣：
-        # <a href="/t/slug/123456" class="title raw-link raw-topic-link">標題</a>
-        pattern = re.compile(
-            r'<a[^>]+href="/t/([^"/]+)/(\d+)"[^>]*class="[^"]*raw-topic-link[^"]*"[^>]*>(.*?)</a>',
-            re.I | re.S
-        )
+                      if title in seen or article_url in seen_url:
+                          continue
 
-        items = []
-        seen = set()
+                      if slug in ("c", "categories", "latest", "top", "new", "unread"):
+                          continue
 
-        for match in pattern.finditer(html):
-            slug = match.group(1).strip()
-            topic_id = match.group(2).strip()
-            title_html = match.group(3)
-            title = clean_title(strip_tags(title_html))
+                      seen.add(title)
+                      seen_url.add(article_url)
+                      items.append({
+                          "title": title,
+                          "url": article_url,
+                          "source": "美卡論壇 Top (HTML)",
+                          "published_at": now_iso()
+                      })
 
-            if not title or len(title) < 4:
-                continue
-            if title in seen:
-                continue
+                      if len(items) >= max_items:
+                          return items
 
-            seen.add(title)
-            article_url = f"https://www.uscardforum.com/t/{urllib.parse.quote(slug)}/{topic_id}"
+              return items
 
-            items.append({
-                "title": title,
-                "url": article_url,
-                "source": "美卡論壇 Top (HTML)",
-                "published_at": now_iso()
-            })
 
-            if len(items) >= max_items:
-                break
+          def parse_uscardforum_top(url, max_items=15):
+              for api_url in (USCARDFORUM_TOP_JSON_URL, USCARDFORUM_LATEST_JSON_URL):
+                  try:
+                      print(f"[uscardforum] fetching JSON {api_url}")
+                      payload = fetch_json(api_url)
 
-        print(f"[uscardforum] HTML /latest parsed items count: {len(items)}")
+                      topic_list = payload.get("topic_list", {})
+                      topics = topic_list.get("topics", [])
+                      print(f"[uscardforum] raw topics count from {api_url}: {len(topics)}")
 
-        if items:
-            return items
+                      items = extract_topics_from_discourse_json(payload, max_items=max_items)
+                      print(f"[uscardforum] parsed items count from {api_url}: {len(items)}")
 
-    except Exception as e:
-        print(f"[uscardforum] HTML /latest fallback failed: {repr(e)}")
+                      if items:
+                          return items
+                  except Exception as e:
+                      print(f"[uscardforum] failed to fetch JSON {api_url}: {repr(e)}")
 
-    print("[uscardforum] all methods failed, returning System Empty Feed")
-    return [{
-        "title": "美卡論壇 Top 目前沒有可用話題",
-        "url": url,
-        "source": "System Empty Feed",
-        "published_at": now_iso()
-    }]
+              print("[uscardforum] JSON endpoints failed, trying HTML /latest fallback")
+
+              try:
+                  html = fetch_text(USCARDFORUM_LATEST_HTML_URL, headers=HTML_HEADERS)
+                  print(f"[uscardforum] fetched HTML /latest length: {len(html)}")
+
+                  items = extract_topics_from_uscardforum_html(html, max_items=max_items)
+                  print(f"[uscardforum] HTML /latest parsed items count: {len(items)}")
+
+                  if items:
+                      return items
+              except Exception as e:
+                  print(f"[uscardforum] HTML /latest fallback failed: {repr(e)}")
+
+              print("[uscardforum] all methods failed, returning System Empty Feed")
+              return [{
+                  "title": "美卡論壇 Top 目前沒有可用話題",
+                  "url": url,
+                  "source": "System Empty Feed",
+                  "published_at": now_iso()
+              }]
 
 
           def parse_doctor_of_credit(url, max_items=15):
