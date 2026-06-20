@@ -23,7 +23,7 @@ jobs:
 
       - name: Generate news.json
         run: |
-          python - <<'PY'
+          python -u - <<'PY'
           import json
           import os
           import re
@@ -340,13 +340,22 @@ jobs:
           def parse_uscardforum_top(url, max_items=15):
               for api_url in (USCARDFORUM_TOP_JSON_URL, USCARDFORUM_LATEST_JSON_URL):
                   try:
+                      print(f"[uscardforum] fetching {api_url}")
                       payload = fetch_json(api_url)
+
+                      topic_list = payload.get("topic_list", {})
+                      topics = topic_list.get("topics", [])
+                      print(f"[uscardforum] raw topics count from {api_url}: {len(topics)}")
+
                       items = extract_topics_from_discourse_json(payload, max_items=max_items)
+                      print(f"[uscardforum] parsed items count from {api_url}: {len(items)}")
+
                       if items:
                           return items
-                  except Exception:
-                      pass
+                  except Exception as e:
+                      print(f"[uscardforum] failed to fetch {api_url}: {repr(e)}")
 
+              print("[uscardforum] all JSON endpoints failed or returned no usable topics")
               return [{
                   "title": "美卡論壇 Top 目前沒有可用話題",
                   "url": url,
@@ -445,7 +454,9 @@ jobs:
                   return items
               prev_items = previous_data.get(category_key, [])
               if isinstance(prev_items, list) and prev_items:
+                  print(f"[fallback] {category_key}: using previous data and marking stale")
                   return mark_as_stale(prev_items)
+              print(f"[fallback] {category_key}: no previous data available, keeping failed result")
               return items
 
 
