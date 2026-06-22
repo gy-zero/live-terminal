@@ -4,252 +4,653 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Live Terminal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg:#050505;
-      --card:#101010;
-      --card2:#151515;
-      --accent:#00e5ff;
-      --text:#fff;
-      --muted:#8b8b8b;
-      --border:#222;
-      --red:#ff5b5b;
-      --green:#6df0b0;
-      --yellow:#ffd166;
-    }
-    *{box-sizing:border-box}
-    html{
-      -webkit-text-size-adjust:100%;
-      text-size-adjust:100%;
-    }
-    body{
-      margin:0;
-      background:var(--bg);
-      color:var(--text);
-      font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-      font-size:16px;
-      display:flex;
-      justify-content:center;
-    }
-    .main-wrapper{width:100%;max-width:1180px;padding:16px}
-    h1{font-size:24px;line-height:1.2;margin:0 0 6px}
-    .sub{color:var(--muted);font-size:13px;line-height:1.55;margin-bottom:16px}
-    h2{
-      font-size:14px;
-      color:var(--accent);
-      border-left:3px solid var(--accent);
-      padding-left:10px;
-      margin:22px 0 8px;
-      text-transform:uppercase;
-      letter-spacing:1px;
-    }
-    .notice-box{
-      background:rgba(255,209,102,.08);
-      border:1px solid rgba(255,209,102,.35);
-      color:var(--yellow);
-      padding:12px 14px;
-      border-radius:12px;
-      margin-bottom:16px;
-      font-size:13px;
-      line-height:1.55
-    }
-    table{
-      width:100%;
-      border-collapse:collapse;
-      background:var(--card);
-      border:1px solid var(--border);
-      border-radius:12px;
-      overflow:hidden;
-      margin-bottom:10px
-    }
-    th,td{
-      padding:11px 9px;
-      border-bottom:1px solid var(--border);
-      font-size:13px;
-      text-align:left;
-      vertical-align:middle;
-      white-space:nowrap
-    }
-    th{
-      background:var(--card2);
-      color:#9d9d9d;
-      font-size:10px;
-      letter-spacing:.6px;
-      text-transform:uppercase
-    }
-    .table-wrap{overflow-x:auto;border-radius:12px;-webkit-overflow-scrolling:touch}
-    .val-col{text-align:right}
-    .up{color:var(--green)}
-    .down{color:var(--red)}
-    .flat{color:var(--yellow)}
-    .source-tag{font-size:11px;color:#6a6a6a;margin:0 2px 10px;line-height:1.5}
-    .error{color:#ffb1b1;font-size:12px;margin-top:6px;line-height:1.5}
-    .ok{color:#a4f4d0}
-    .spark{display:flex;gap:4px;align-items:end;justify-content:flex-end;height:28px;min-width:54px}
-    .spark-bar{width:11px;border-radius:999px;background:linear-gradient(180deg,var(--accent),#147df5);opacity:.9}
-    .uv-pill{display:inline-block;min-width:74px;text-align:center;padding:4px 8px;border-radius:999px;font-size:11px;font-weight:700;color:white;margin-top:4px}
-    .uv-low{background:#43a047}
-    .uv-moderate{background:#c0ca33;color:#111}
-    .uv-high{background:#fb8c00}
-    .uv-very-high{background:#e53935}
-    .uv-extreme{background:#7e57c2}
-
-    .news-grid{
-      display:grid;
-      grid-template-columns:1fr;
-      gap:14px;
+      --bg: #171614;
+      --surface: #1c1b19;
+      --surface-2: #201f1d;
+      --surface-3: #252321;
+      --border: #393836;
+      --text: #cdccca;
+      --muted: #8d8b87;
+      --faint: #686662;
+      --accent: #4f98a3;
+      --accent-2: #2f6f78;
+      --good: #6daa45;
+      --warn: #edb336;
+      --bad: #d163a7;
+      --danger: #dd6974;
+      --shadow: 0 16px 40px rgba(0,0,0,.28);
+      --radius: 18px;
+      --radius-sm: 12px;
     }
 
-    @media (min-width: 900px){
-      .news-grid{
-        grid-template-columns:repeat(2, minmax(0, 1fr));
+    * { box-sizing: border-box; }
+    html { color-scheme: dark; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, sans-serif;
+      background:
+        radial-gradient(circle at top right, rgba(79,152,163,.08), transparent 26%),
+        linear-gradient(180deg, #141311 0%, #171614 100%);
+      color: var(--text);
+      min-height: 100vh;
+      font-variant-numeric: tabular-nums lining-nums;
+    }
+
+    a { color: inherit; }
+
+    .app-shell {
+      max-width: 1480px;
+      margin: 0 auto;
+      padding: 18px;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      margin-bottom: 18px;
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 14px;
+      align-items: center;
+      padding: 14px 18px;
+      background: rgba(28,27,25,.86);
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: 18px;
+      backdrop-filter: blur(14px);
+      box-shadow: var(--shadow);
+    }
+
+    .brand h1 {
+      margin: 0;
+      font-size: 22px;
+      font-weight: 800;
+      letter-spacing: -.03em;
+    }
+
+    .brand .sub {
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .global-status {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 34px;
+      padding: 0 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,.08);
+      background: var(--surface-2);
+      color: var(--text);
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: var(--muted);
+      box-shadow: 0 0 0 4px rgba(255,255,255,.02);
+    }
+
+    .dot.ok { background: var(--good); }
+    .dot.warn { background: var(--warn); }
+    .dot.bad { background: var(--danger); }
+
+    .dashboard {
+      display: grid;
+      gap: 18px;
+    }
+
+    .kpi-row {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .stack-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 18px;
+      align-items: start;
+    }
+
+    .card, .panel {
+      background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.01));
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .card {
+      padding: 16px 18px;
+      min-height: 110px;
+    }
+
+    .eyebrow {
+      color: var(--muted);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+
+    .kpi-value {
+      margin-top: 10px;
+      font-size: 30px;
+      font-weight: 800;
+      letter-spacing: -.04em;
+    }
+
+    .kpi-meta {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .panel-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: flex-start;
+      padding: 18px 18px 0;
+    }
+
+    .panel-title {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: -.02em;
+    }
+
+    .panel-meta {
+      margin-top: 4px;
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.45;
+      text-align: right;
+    }
+
+    .panel-body {
+      padding: 16px 18px 18px;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,.06);
+      background: rgba(255,255,255,.015);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 720px;
+      table-layout: fixed;
+    }
+
+    th, td {
+      padding: 12px 12px;
+      border-bottom: 1px solid rgba(255,255,255,.06);
+      text-align: left;
+      white-space: nowrap;
+      font-size: 13px;
+      vertical-align: middle;
+    }
+
+    th {
+      color: var(--muted);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      background: rgba(255,255,255,.02);
+      position: sticky;
+      top: 0;
+    }
+
+    tbody tr:hover { background: rgba(79,152,163,.05); }
+    .val-col { text-align: right; }
+    .up { color: var(--good); }
+    .down { color: var(--danger); }
+    .flat { color: var(--warn); }
+
+    .mini-bars {
+      display: flex;
+      align-items: end;
+      justify-content: flex-end;
+      gap: 4px;
+      height: 28px;
+      min-width: 58px;
+    }
+
+    .mini-bars span {
+      width: 10px;
+      border-radius: 999px;
+      background: linear-gradient(180deg, var(--accent), #28535a);
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 78px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 700;
+      margin-top: 4px;
+    }
+
+    .uv-low, .outfit-safe { background: rgba(109,170,69,.18); color: #b7e892; }
+    .uv-moderate, .outfit-caution { background: rgba(237,179,54,.2); color: #ffd978; }
+    .uv-high, .uv-very-high, .uv-extreme, .outfit-danger { background: rgba(221,105,116,.18); color: #ffb4bd; }
+
+    .weather-table th, .weather-table td {
+      width: calc(100% / 6);
+    }
+
+    .weather-note {
+      margin-top: 10px;
+      color: var(--faint);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .error-box {
+      margin-top: 10px;
+      padding: 10px 12px;
+      border-radius: 12px;
+      border: 1px solid rgba(221,105,116,.24);
+      background: rgba(221,105,116,.08);
+      color: #ffc4cb;
+      font-size: 12px;
+      line-height: 1.5;
+      display: none;
+    }
+
+    .news-section {
+      display: grid;
+      gap: 18px;
+    }
+
+    .news-layout {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .news-card {
+      padding: 18px;
+      min-height: 100%;
+    }
+
+    .news-card h3 {
+      margin: 0 0 12px;
+      font-size: 14px;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    .news-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 12px;
+    }
+
+    .news-list li {
+      padding-bottom: 12px;
+      border-bottom: 1px solid rgba(255,255,255,.06);
+    }
+
+    .news-list li:last-child { border-bottom: none; padding-bottom: 0; }
+    .news-list a { text-decoration: none; color: var(--text); }
+    .news-list a:hover { color: var(--accent); }
+    .news-meta { margin-top: 5px; color: var(--muted); font-size: 11px; line-height: 1.45; }
+    .stale-badge { display:inline-flex; align-items:center; justify-content:center; min-width:54px; padding:4px 8px; border-radius:999px; font-size:11px; font-weight:700; background:rgba(237,179,54,.18); color:#ffd978; margin-left:6px; }
+
+    @media (max-width: 1100px) {
+      .topbar,
+      .news-layout,
+      .kpi-row {
+        grid-template-columns: 1fr 1fr;
       }
+      .topbar { grid-template-columns: 1fr; }
+      .global-status { justify-content: flex-start; }
     }
 
-    .news-card{
-      background:var(--card);
-      border:1px solid var(--border);
-      border-radius:12px;
-      padding:14px;
-      min-height:240px;
-    }
-    .news-card h3{
-      margin:0 0 10px;
-      font-size:13px;
-      color:var(--accent);
-      text-transform:uppercase;
-      letter-spacing:.8px
-    }
-    .news-list{list-style:none;padding:0;margin:0}
-    .news-list li{
-      padding:10px 0;
-      border-bottom:1px solid var(--border);
-      white-space:normal
-    }
-    .news-list li:last-child{border-bottom:none}
-    .news-list a{color:var(--text);text-decoration:none}
-    .news-list a:hover{text-decoration:underline}
-    .news-meta{
-      display:block;
-      color:var(--muted);
-      font-size:11px;
-      line-height:1.5;
-      margin-top:4px
-    }
-    .stale-badge{
-      display:inline-block;
-      margin-left:6px;
-      padding:1px 6px;
-      border-radius:999px;
-      font-size:10px;
-      color:#111;
-      background:var(--yellow);
-      vertical-align:middle;
-    }
+    @media (max-width: 780px) {
+      .app-shell {
+        padding: 10px;
+      }
 
-    @media (max-width: 768px){
-      .main-wrapper{padding:14px}
-      h1{font-size:28px;line-height:1.2}
-      h2{font-size:15px;margin:18px 0 10px}
-      .sub,
-      .notice-box,
-      .source-tag,
-      .error,
-      .news-meta{font-size:13px;line-height:1.6}
-      th,td{font-size:13px;padding:12px 10px;white-space:nowrap}
-      th{font-size:11px}
-      .news-card{min-height:auto;padding:16px}
-      .news-card h3{font-size:14px}
-      .news-list li{padding:12px 0}
-      .spark{min-width:64px;height:32px}
-      .uv-pill{min-width:82px;font-size:12px;padding:5px 9px}
+      .topbar {
+        position: static;
+        margin-bottom: 12px;
+        padding: 12px 14px;
+        gap: 10px;
+        border-radius: 14px;
+      }
+
+      .brand h1 {
+        font-size: 20px;
+      }
+
+      .brand .sub,
+      .chip,
+      .kpi-meta,
+      .panel-meta,
+      .weather-note,
+      .news-meta,
+      .eyebrow {
+        font-size: 13px;
+      }
+
+      .dashboard {
+        gap: 12px;
+      }
+
+      .kpi-row {
+        display: flex;
+        gap: 12px;
+        overflow-x: auto;
+        padding-bottom: 4px;
+        scroll-snap-type: x proximity;
+      }
+
+      .kpi-row > .card {
+        min-width: 220px;
+        flex: 0 0 220px;
+        scroll-snap-align: start;
+      }
+
+      .news-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .card {
+        min-height: auto;
+        padding: 14px 16px;
+      }
+
+      .kpi-value {
+        font-size: 28px;
+      }
+
+      .panel-header,
+      .global-status {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .panel-header {
+        gap: 8px;
+      }
+
+      .panel-title {
+        font-size: 17px;
+      }
+
+      .panel-body,
+      .news-card {
+        padding: 14px;
+      }
+
+      .panel-meta {
+        text-align: left;
+      }
+
+      th, td {
+        font-size: 14px;
+        padding: 10px 8px;
+      }
+
+      .table-wrap {
+        -webkit-overflow-scrolling: touch;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="main-wrapper">
-    <h1>Live Terminal</h1>
-    <div class="sub">
-      這版整合了股票、Seattle 天氣，以及 news.json 新聞快照。股票資料由 repo 內的 stocks.json 提供；新聞目前包含 International、AI / Tech、USA、Taiwan、Health / Medical、轉角國際、電腦王阿達、US Credit Card Guide、Frequent Miler 兩個 feed、美卡論壇 Top，以及 Doctor of Credit，全部由 repo 內的 news.json 提供。
-    </div>
-    <div class="notice-box">
-      股票區改成讀取 repo 內的 stocks.json，不再直接依賴 Google Sheets CSV，因此可避免 Published Sheet 在重算過程中短暫輸出「載入中」。桌機版新聞區塊固定最多兩欄，時間格式已統一為 Seattle 本地時間。手機版已調整字級、間距與表格捲動體驗，改善可讀性。
-    </div>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <h1>Live Terminal</h1>
+        <div class="sub">Dark dashboard for assets, Seattle hourly weather, and ordered news feed snapshots.</div>
+      </div>
+      <div class="global-status">
+        <span id="status-assets" class="chip"><span class="dot"></span>Assets loading</span>
+        <span id="status-weather" class="chip"><span class="dot"></span>Weather loading</span>
+        <span id="status-news" class="chip"><span class="dot"></span>News loading</span>
+        <span id="status-sync" class="chip">Last sync — waiting</span>
+      </div>
+    </header>
 
-    <h2>📈 Asset Monitoring</h2>
-    <div id="asset-source" class="source-tag">Assets: waiting for stocks.json...</div>
-    <div class="table-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th>Asset</th>
-            <th class="val-col">Current</th>
-            <th class="val-col">Prev</th>
-            <th class="val-col">Prev2</th>
-            <th class="val-col">Prev3</th>
-            <th class="val-col">1D Change</th>
-            <th class="val-col">Vs Prev3</th>
-            <th class="val-col">Trend</th>
-          </tr>
-        </thead>
-        <tbody id="asset-data"><tr><td colspan="8" style="text-align:center;">Loading feed...</td></tr></tbody>
-      </table>
-    </div>
-    <div id="asset-error" class="error"></div>
+    <main class="dashboard">
+      <section class="kpi-row">
+        <article class="card">
+          <div class="eyebrow">Assets tracked</div>
+          <div id="kpi-assets" class="kpi-value">—</div>
+          <div id="kpi-assets-meta" class="kpi-meta">Waiting for stocks.json</div>
+        </article>
+        <article class="card">
+          <div class="eyebrow">Primary feeds</div>
+          <div id="kpi-primary" class="kpi-value">—</div>
+          <div id="kpi-primary-meta" class="kpi-meta">International · Tech · USA · Taiwan · Health · 轉角國際</div>
+        </article>
+        <article class="card">
+          <div class="eyebrow">Secondary feeds</div>
+          <div id="kpi-secondary" class="kpi-value">—</div>
+          <div id="kpi-secondary-meta" class="kpi-meta">電腦王阿達 · USCCG · FM · Quick Deals · DoC</div>
+        </article>
+      </section>
 
-    <h2>☁️ Seattle Weather (Live API)</h2>
-    <div id="weather-source" class="source-tag">Weather: waiting for API response...</div>
-    <div class="table-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th>Time</th>
-            <th>Temp</th>
-            <th>Feels</th>
-            <th>Rain</th>
-            <th class="val-col">UV</th>
-          </tr>
-        </thead>
-        <tbody id="weather-data"><tr><td colspan="5" style="text-align:center;">Syncing with Open-Meteo...</td></tr></tbody>
-      </table>
-    </div>
-    <div id="weather-error" class="error"></div>
+      <section class="stack-grid">
+        <article class="panel">
+          <div class="panel-header">
+            <div>
+              <h2 class="panel-title">Asset Monitoring</h2>
+              <div class="panel-meta">Repo snapshot · stocks.json · compact terminal table with short-term trend</div>
+            </div>
+            <span id="asset-updated" class="chip">Updated — waiting</span>
+          </div>
+          <div class="panel-body">
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Asset</th>
+                    <th class="val-col">Current</th>
+                    <th class="val-col">Prev</th>
+                    <th class="val-col">Prev2</th>
+                    <th class="val-col">Prev3</th>
+                    <th class="val-col">1D</th>
+                    <th class="val-col">Vs Prev3</th>
+                    <th class="val-col">Trend</th>
+                  </tr>
+                </thead>
+                <tbody id="asset-data">
+                  <tr><td colspan="8" style="text-align:center;">Loading assets...</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="asset-error" class="error-box"></div>
+          </div>
+        </article>
 
-    <h2>📰 News Snapshot</h2>
-    <div id="news-source" class="source-tag">News: waiting for news.json...</div>
-    <div id="news-error" class="error"></div>
+        <article class="panel">
+          <div class="panel-header">
+            <div>
+              <h2 class="panel-title">Seattle Hourly Weather</h2>
+              <div class="panel-meta">Current snapshot removed; hourly table carries rain, UV, and gust-based skirt hint.</div>
+            </div>
+            <span class="chip">Open-Meteo · 09:00–21:00 PT</span>
+          </div>
+          <div class="panel-body">
+            <div class="table-wrap">
+              <table class="weather-table">
+                <thead>
+                  <tr>
+                    <th>Time</th>
+                    <th>Temp</th>
+                    <th>Feels</th>
+                    <th>Rain</th>
+                    <th class="val-col">UV</th>
+                    <th class="val-col">Gust / Skirt Hint</th>
+                  </tr>
+                </thead>
+                <tbody id="weather-data">
+                  <tr><td colspan="6" style="text-align:center;">Loading weather...</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="weather-note">Skirt hint is your custom lifestyle rule, not an official weather advisory. Suggested thresholds: 0–10 mph safe, 10–15 mph caution, above 15 mph danger.</div>
+            <div id="weather-error" class="error-box"></div>
+          </div>
+        </article>
+      </section>
 
-    <div class="news-grid">
-      <div class="news-card"><h3>International News</h3><ul id="news-international" class="news-list"><li>Loading...</li></ul></div>
-      <div class="news-card"><h3>AI / Tech News</h3><ul id="news-tech" class="news-list"><li>Loading...</li></ul></div>
-      <div class="news-card"><h3>USA News</h3><ul id="news-usa" class="news-list"><li>Loading...</li></ul></div>
-      <div class="news-card"><h3>Taiwan News</h3><ul id="news-taiwan" class="news-list"><li>Loading...</li></ul></div>
-      <div class="news-card"><h3>Health / Medical News</h3><ul id="news-health" class="news-list"><li>Loading...</li></ul></div>
-      <div class="news-card"><h3>轉角國際</h3><ul id="news-global-udn" class="news-list"><li>Loading...</li></ul></div>
-      <div class="news-card"><h3>電腦王阿達</h3><ul id="news-koc" class="news-list"><li>Loading...</li></ul></div>
-      <div class="news-card"><h3>US Credit Card Guide</h3><ul id="news-usccg" class="news-list"><li>Loading...</li></ul></div>
-      <div class="news-card"><h3>Frequent Miler</h3><ul id="news-fm-main" class="news-list"><li>Loading...</li></ul></div>
-      <div class="news-card"><h3>Frequent Miler Quick Deals</h3><ul id="news-fm-quick" class="news-list"><li>Loading...</li></ul></div>
-      <div class="news-card"><h3>美卡論壇 Top</h3><ul id="news-uscardforum-top" class="news-list"><li>Loading...</li></ul></div>
-      <div class="news-card"><h3>Doctor of Credit</h3><ul id="news-doc" class="news-list"><li>Loading...</li></ul></div>
-    </div>
+      <section class="news-section panel">
+        <div class="panel-header">
+          <div>
+            <h2 class="panel-title">Primary News</h2>
+            <div class="panel-meta">Ordered by source · fixed per-source caps</div>
+          </div>
+        </div>
+        <div class="panel-body">
+          <div class="news-layout">
+            <article class="panel news-card">
+              <h3>International News</h3>
+              <ul id="news-international" class="news-list"><li>Loading...</li></ul>
+            </article>
+            <article class="panel news-card">
+              <h3>Tech News</h3>
+              <ul id="news-tech" class="news-list"><li>Loading...</li></ul>
+            </article>
+            <article class="panel news-card">
+              <h3>USA News</h3>
+              <ul id="news-usa" class="news-list"><li>Loading...</li></ul>
+            </article>
+            <article class="panel news-card">
+              <h3>Taiwan News</h3>
+              <ul id="news-taiwan" class="news-list"><li>Loading...</li></ul>
+            </article>
+            <article class="panel news-card">
+              <h3>Health News</h3>
+              <ul id="news-health" class="news-list"><li>Loading...</li></ul>
+            </article>
+            <article class="panel news-card">
+              <h3>轉角國際</h3>
+              <ul id="news-global-udn" class="news-list"><li>Loading...</li></ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="news-section panel">
+        <div class="panel-header">
+          <div>
+            <h2 class="panel-title">Secondary Feeds</h2>
+            <div class="panel-meta">Ordered by source · fixed per-source caps</div>
+          </div>
+        </div>
+        <div class="panel-body">
+          <div class="news-layout">
+            <article class="panel news-card">
+              <h3>電腦王阿達</h3>
+              <ul id="news-koc" class="news-list"><li>Loading...</li></ul>
+            </article>
+            <article class="panel news-card">
+              <h3>US Credit Card Guide</h3>
+              <ul id="news-usccg" class="news-list"><li>Loading...</li></ul>
+            </article>
+            <article class="panel news-card">
+              <h3>Frequent Miler</h3>
+              <ul id="news-fm-main" class="news-list"><li>Loading...</li></ul>
+            </article>
+            <article class="panel news-card">
+              <h3>Frequent Miler Quick Deals</h3>
+              <ul id="news-fm-quick" class="news-list"><li>Loading...</li></ul>
+            </article>
+            <article class="panel news-card">
+              <h3>Doctor of Credit</h3>
+              <ul id="news-doc" class="news-list"><li>Loading...</li></ul>
+            </article>
+          </div>
+          <div id="news-error" class="error-box"></div>
+        </div>
+      </section>
+    </main>
   </div>
 
   <script>
     const STOCKS_JSON_URL = './stocks.json';
+    const NEWS_JSON_URL = './news.json';
+    const WEATHER_URL = 'https://api.open-meteo.com/v1/forecast?latitude=47.6062&longitude=-122.3321&hourly=temperature_2m,apparent_temperature,precipitation_probability,uv_index,wind_gusts_10m&timezone=America%2FLos_Angeles&forecast_days=1';
+
+    const primarySections = [
+      { keys: ['international'], id: 'news-international', limit: 10 },
+      { keys: ['tech', 'tech_science', 'ai_tech'], id: 'news-tech', limit: 10 },
+      { keys: ['usa'], id: 'news-usa', limit: 7 },
+      { keys: ['taiwan'], id: 'news-taiwan', limit: 7 },
+      { keys: ['health', 'health_medical'], id: 'news-health', limit: 7 },
+      { keys: ['udn_global', 'global_udn'], id: 'news-global-udn', limit: 7 }
+    ];
+
+    const secondarySections = [
+      { keys: ['koc'], id: 'news-koc', limit: 10 },
+      { keys: ['usccg', 'us_credit_card_guide'], id: 'news-usccg', limit: 10 },
+      { keys: ['frequent_miler', 'fm_main'], id: 'news-fm-main', limit: 7 },
+      { keys: ['frequent_miler_quick_deals', 'fm_quick', 'quick_deals'], id: 'news-fm-quick', limit: 7 },
+      { keys: ['doctor_of_credit', 'doc'], id: 'news-doc', limit: 10 }
+    ];
 
     function toNumber(v){
-      const cleaned=String(v??'').replace(/,/g,'').trim();
-      const num=Number(cleaned);
-      return Number.isFinite(num)?num:NaN;
+      const cleaned = String(v ?? '').replace(/,/g, '').trim();
+      const num = Number(cleaned);
+      return Number.isFinite(num) ? num : NaN;
     }
 
-    function fmtValue(value,name='',currency='USD'){
-      const raw=String(value??'').trim();
-      const num=toNumber(value);
+    function formatSeattleTime(input){
+      const d = input ? new Date(input) : new Date();
+      if (Number.isNaN(d.getTime())) return 'n/a';
+      const parts = new Intl.DateTimeFormat('en-CA', {
+        timeZone: 'America/Los_Angeles',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: false
+      }).formatToParts(d);
+      const map = {};
+      parts.forEach(p => { map[p.type] = p.value; });
+      return `${map.year}/${map.month}/${map.day} ${map.hour}:${map.minute} PT`;
+    }
+
+    function fmtValue(value, name='', currency='USD'){
+      const raw = String(value ?? '').trim();
+      const num = toNumber(value);
       if(!raw && !Number.isFinite(num)) return '—';
       if(!Number.isFinite(num)) return raw || '—';
-
       const isTaiwan = currency === 'TWD' || name.startsWith('TPE:') || name.endsWith('.TW') || name.endsWith('.TWO');
       const prefix = isTaiwan ? 'NT$' : '$';
       return `${prefix}${num.toLocaleString(undefined,{maximumFractionDigits:2})}`;
@@ -280,38 +681,10 @@
     }
 
     function sparklineHTML(values){
-      const nums=values.map(toNumber).filter(v=>Number.isFinite(v));
-      if(nums.length<2) return '—';
-      const min=Math.min(...nums),max=Math.max(...nums),range=max-min||1;
-      return `<div class="spark">${nums.map(v=>`<span class="spark-bar" style="height:${(8+((v-min)/range)*18).toFixed(1)}px"></span>`).join('')}</div>`;
-    }
-
-    function getUvLevel(uv){
-      if(uv>=11) return {label:'Extreme',className:'uv-extreme'};
-      if(uv>=8) return {label:'Very High',className:'uv-very-high'};
-      if(uv>=6) return {label:'High',className:'uv-high'};
-      if(uv>=3) return {label:'Moderate',className:'uv-moderate'};
-      return {label:'Low',className:'uv-low'};
-    }
-
-    function formatSeattleTime(input){
-      const d = input ? new Date(input) : new Date();
-      if (Number.isNaN(d.getTime())) return String(input || 'n/a');
-
-      const parts = new Intl.DateTimeFormat('en-CA', {
-        timeZone: 'America/Los_Angeles',
-        year: 'numeric',
-        month: '2-digit',
-        day: '2-digit',
-        hour: '2-digit',
-        minute: '2-digit',
-        hour12: false
-      }).formatToParts(d);
-
-      const map = {};
-      parts.forEach(p => { map[p.type] = p.value; });
-
-      return `${map.year}/${map.month}/${map.day} ${map.hour}:${map.minute} PT`;
+      const nums = values.map(toNumber).filter(v => Number.isFinite(v));
+      if(nums.length < 2) return '—';
+      const min = Math.min(...nums), max = Math.max(...nums), range = max - min || 1;
+      return `<div class="mini-bars">${nums.map(v=>`<span style="height:${(8 + ((v - min) / range) * 20).toFixed(1)}px"></span>`).join('')}</div>`;
     }
 
     function normalizeAssetName(name, displayName){
@@ -323,169 +696,183 @@
       return raw || '—';
     }
 
-    async function runStocks(){
-      const tbody=document.getElementById('asset-data');
-      const source=document.getElementById('asset-source');
-      const error=document.getElementById('asset-error');
+    function setStatus(id, text, level='warn'){
+      const el = document.getElementById(id);
+      if(!el) return;
+      const dotClass = level === 'ok' ? 'ok' : level === 'bad' ? 'bad' : 'warn';
+      el.innerHTML = `<span class="dot ${dotClass}"></span>${text}`;
+    }
 
-      source.textContent='Assets: fetching ./stocks.json...';
-      error.textContent='';
+    function setError(id, message=''){
+      const el = document.getElementById(id);
+      if(!el) return;
+      if(message){
+        el.style.display = 'block';
+        el.textContent = message;
+      } else {
+        el.style.display = 'none';
+        el.textContent = '';
+      }
+    }
 
+    function getUvClass(uv){
+      if(uv >= 11) return 'uv-extreme';
+      if(uv >= 8) return 'uv-very-high';
+      if(uv >= 6) return 'uv-high';
+      if(uv >= 3) return 'uv-moderate';
+      return 'uv-low';
+    }
+
+    function getUvLabel(uv){
+      if(uv >= 11) return 'Extreme';
+      if(uv >= 8) return 'Very High';
+      if(uv >= 6) return 'High';
+      if(uv >= 3) return 'Moderate';
+      return 'Safe';
+    }
+
+    function skirtClass(gustMph){
+      if(gustMph > 15) return 'outfit-danger';
+      if(gustMph >= 10) return 'outfit-caution';
+      return 'outfit-safe';
+    }
+
+    function skirtLabel(gustMph){
+      if(gustMph > 15) return 'Danger';
+      if(gustMph >= 10) return 'Caution';
+      return 'Safe';
+    }
+
+    function pickItems(data, keys){
+      for(const key of keys){
+        if(Array.isArray(data[key]) && data[key].length) return data[key];
+      }
+      return [];
+    }
+
+    function renderNewsList(id, items){
+      const el = document.getElementById(id);
+      if(!el) return;
+      el.innerHTML = items.length ? items.map(renderNewsItem).join('') : '<li>No news yet.</li>';
+    }
+
+    async function loadStocks(){
+      const tbody = document.getElementById('asset-data');
       try{
-        const res=await fetch(`${STOCKS_JSON_URL}?v=${Date.now()}`,{cache:'no-store'});
+        const res = await fetch(`${STOCKS_JSON_URL}?v=${Date.now()}`, { cache:'no-store' });
         if(!res.ok) throw new Error(`HTTP ${res.status}`);
-
         const text = await res.text();
-        if(!text.trim().startsWith('{')){
-          throw new Error(`stocks.json is not valid JSON: ${text.slice(0,80)}`);
-        }
+        if(!text.trim().startsWith('{')) throw new Error('stocks.json is not valid JSON');
+        const data = JSON.parse(text);
+        const items = Array.isArray(data.assets) ? data.assets : [];
+        if(!items.length) throw new Error('No asset data returned');
 
-        const data=JSON.parse(text);
-        const items=Array.isArray(data.assets) ? data.assets : [];
-
-        if(!items.length){
-          throw new Error('No asset data returned');
-        }
-
-        tbody.innerHTML=items.map(item=>{
+        let upCount = 0, downCount = 0, flatCount = 0;
+        tbody.innerHTML = items.map(item => {
           const name = normalizeAssetName(item.name, item.display_name);
           const currency = item.currency || 'USD';
-          const c=toNumber(item.current);
-          const p=toNumber(item.prev);
-          const p2=toNumber(item.prev2);
-          const p3=toNumber(item.prev3);
-          const d1=Number.isFinite(c)&&Number.isFinite(p)&&p!==0?((c-p)/p)*100:NaN;
-          const d3=Number.isFinite(c)&&Number.isFinite(p3)&&p3!==0?((c-p3)/p3)*100:NaN;
-
-          const prevCls = compareClass(item.prev, item.current);
-          const prev2Cls = compareClass(item.prev2, item.prev);
-          const prev3Cls = compareClass(item.prev3, item.prev2);
-
+          const c = toNumber(item.current);
+          const p = toNumber(item.prev);
+          const p3 = toNumber(item.prev3);
+          const d1 = Number.isFinite(c)&&Number.isFinite(p)&&p!==0?((c-p)/p)*100:NaN;
+          const d3 = Number.isFinite(c)&&Number.isFinite(p3)&&p3!==0?((c-p3)/p3)*100:NaN;
+          if(Number.isFinite(d1)){
+            if(d1 > 0) upCount++;
+            else if(d1 < 0) downCount++;
+            else flatCount++;
+          } else {
+            flatCount++;
+          }
           return `<tr>
-            <td><strong>${name}</strong>${item.stale ? '<br><span class="news-meta">Using previous snapshot</span>' : ''}</td>
-            <td class="val-col">${fmtValue(item.current,name,currency)}</td>
-            <td class="val-col">${valueCellHTML(item.prev,name,currency,prevCls)}</td>
-            <td class="val-col">${valueCellHTML(item.prev2,name,currency,prev2Cls)}</td>
-            <td class="val-col">${valueCellHTML(item.prev3,name,currency,prev3Cls)}</td>
+            <td><strong>${name}</strong>${item.stale ? '<span class="stale-badge">stale</span>' : ''}</td>
+            <td class="val-col">${fmtValue(item.current, name, currency)}</td>
+            <td class="val-col">${valueCellHTML(item.prev, name, currency, compareClass(item.prev, item.current))}</td>
+            <td class="val-col">${valueCellHTML(item.prev2, name, currency, compareClass(item.prev2, item.prev))}</td>
+            <td class="val-col">${valueCellHTML(item.prev3, name, currency, compareClass(item.prev3, item.prev2))}</td>
             <td class="val-col ${cls(d1)}">${pct(d1)}</td>
             <td class="val-col ${cls(d3)}">${pct(d3)}</td>
-            <td class="val-col">${sparklineHTML([item.prev3,item.prev2,item.prev,item.current])}</td>
+            <td class="val-col">${sparklineHTML([item.prev3, item.prev2, item.prev, item.current])}</td>
           </tr>`;
         }).join('');
 
-        source.innerHTML=`Assets: stocks.json loaded · Updated at: <span class="ok">${formatSeattleTime(data.updated_at)}</span>`;
+        document.getElementById('kpi-assets').textContent = items.length;
+        document.getElementById('kpi-assets-meta').textContent = `${upCount} up · ${downCount} down · ${flatCount} flat`;
+        document.getElementById('asset-updated').textContent = `Updated ${formatSeattleTime(data.updated_at)}`;
+        setStatus('status-assets', 'Assets OK', 'ok');
       }catch(err){
-        tbody.innerHTML='<tr><td colspan="8" style="text-align:center;">Stock sync failed.</td></tr>';
-        source.textContent='Assets: load failed';
-        error.textContent=`股票更新失敗：${err.message}`;
+        tbody.innerHTML = '<tr><td colspan="8" style="text-align:center;">Assets load failed.</td></tr>';
+        setError('asset-error', `股票讀取失敗：${err.message}`);
+        setStatus('status-assets', 'Assets failed', 'bad');
       }
     }
 
-    async function fetchWeather(){
-      const weatherBody=document.getElementById('weather-data');
-      const source=document.getElementById('weather-source');
-      const errorBox=document.getElementById('weather-error');
-      const url='https://api.open-meteo.com/v1/forecast?latitude=47.6062&longitude=-122.3321&hourly=temperature_2m,apparent_temperature,precipitation_probability,uv_index&timezone=America%2FLos_Angeles&forecast_days=1';
+    async function loadWeather(){
+      const tbody = document.getElementById('weather-data');
       try{
-        const res=await fetch(url,{cache:'no-store'});
+        const res = await fetch(WEATHER_URL, { cache:'no-store' });
         if(!res.ok) throw new Error(`HTTP ${res.status}`);
-        const data=await res.json();
-        let html='';
+        const data = await res.json();
+        const rows = [];
         for(let i=0;i<data.hourly.time.length;i++){
-          const hour=parseInt(data.hourly.time[i].split('T')[1].slice(0,2),10);
-          if(hour>=9&&hour<=21){
-            const uv=data.hourly.uv_index[i];
-            const uvInfo=getUvLevel(uv);
-            html+=`<tr>
-              <td>${data.hourly.time[i].split('T')[1]}</td>
-              <td>${data.hourly.temperature_2m[i]}°C</td>
-              <td>${data.hourly.apparent_temperature[i]}°C</td>
-              <td>${data.hourly.precipitation_probability[i]}%</td>
-              <td class="val-col"><strong style="color:var(--accent)">${uv}</strong><br><span class="uv-pill ${uvInfo.className}">${uvInfo.label}</span></td>
-            </tr>`;
+          const hour = parseInt(data.hourly.time[i].split('T')[1].slice(0,2),10);
+          if(hour >= 9 && hour <= 21){
+            const uv = Number(data.hourly.uv_index[i] ?? 0);
+            const gustKmh = Number(data.hourly.wind_gusts_10m?.[i] ?? 0);
+            const gustMph = gustKmh * 0.621371;
+            rows.push(`
+              <tr>
+                <td>${data.hourly.time[i].split('T')[1]} PT</td>
+                <td>${data.hourly.temperature_2m[i]}°C</td>
+                <td>${data.hourly.apparent_temperature[i]}°C</td>
+                <td>${data.hourly.precipitation_probability[i]}%</td>
+                <td class="val-col"><strong>${uv.toFixed(1)}</strong><br><span class="tag ${getUvClass(uv)}">${getUvLabel(uv)}</span></td>
+                <td class="val-col"><strong>${Math.round(gustMph)} mph</strong><br><span class="tag ${skirtClass(gustMph)}">${skirtLabel(gustMph)}</span></td>
+              </tr>
+            `);
           }
         }
-        weatherBody.innerHTML=html||'<tr><td colspan="5" style="text-align:center;">No hourly weather returned.</td></tr>';
-        source.innerHTML=`Weather: Open-Meteo live API · Last sync: <span class="ok">${formatSeattleTime()}</span>`;
+        tbody.innerHTML = rows.length ? rows.join('') : '<tr><td colspan="6" style="text-align:center;">No weather rows returned.</td></tr>';
+        setStatus('status-weather', 'Weather OK', 'ok');
       }catch(err){
-        weatherBody.innerHTML='<tr><td colspan="5" style="text-align:center;">Weather sync failed.</td></tr>';
-        source.textContent='Weather: sync failed';
-        errorBox.textContent=`天氣更新失敗：${err.message}`;
+        tbody.innerHTML = '<tr><td colspan="6" style="text-align:center;">Weather load failed.</td></tr>';
+        setError('weather-error', `天氣讀取失敗：${err.message}`);
+        setStatus('status-weather', 'Weather failed', 'bad');
       }
     }
 
-    function renderNewsList(elementId, items){
-      const el = document.getElementById(elementId);
-      if(!el) return;
-      if(!Array.isArray(items) || items.length===0){
-        el.innerHTML = '<li>No news yet.</li>';
-        return;
-      }
-      el.innerHTML = items.map(item => {
-        const title = item.title || 'Untitled';
-        const url = item.url || '#';
-        const stale = item.stale ? ' <span class="stale-badge">stale</span>' : '';
-        const meta = [
-          item.source ? `Source: ${item.source}` : '',
-          item.published_at ? `Published: ${formatSeattleTime(item.published_at)}` : ''
-        ].filter(Boolean).join(' · ');
-        return `
-          <li>
-            <a href="${url}" target="_blank" rel="noopener noreferrer">${title}</a>${stale}
-            ${meta ? `<span class="news-meta">${meta}</span>` : ''}
-          </li>
-        `;
-      }).join('');
+    function renderNewsItem(item){
+      const title = item.title || 'Untitled';
+      const url = item.url || '#';
+      const stale = item.stale ? '<span class="stale-badge">stale</span>' : '';
+      const source = item.source ? `Source: ${item.source}` : 'Source: n/a';
+      const published = item.published_at ? `Published: ${formatSeattleTime(item.published_at)}` : 'Published: n/a';
+      return `<li><a href="${url}" target="_blank" rel="noopener noreferrer">${title}</a>${stale}<div class="news-meta">${source} · ${published}</div></li>`;
     }
 
     async function loadNews(){
-      const source = document.getElementById('news-source');
-      const error = document.getElementById('news-error');
-      source.textContent = 'News: fetching ./news.json...';
-      error.textContent = '';
-
       try{
-        const url = './news.json?v=' + Date.now();
-        const res = await fetch(url, { cache: 'no-store' });
+        const res = await fetch(`${NEWS_JSON_URL}?v=${Date.now()}`, { cache:'no-store' });
         if(!res.ok) throw new Error(`HTTP ${res.status}`);
-
         const text = await res.text();
-        if(!text.trim().startsWith('{')){
-          throw new Error(`news.json is not valid JSON: ${text.slice(0,80)}`);
-        }
-
+        if(!text.trim().startsWith('{')) throw new Error('news.json is not valid JSON');
         const data = JSON.parse(text);
 
-        renderNewsList('news-international', data.international || []);
-        renderNewsList('news-tech', data.tech_science || []);
-        renderNewsList('news-usa', data.usa || []);
-        renderNewsList('news-taiwan', data.taiwan || []);
-        renderNewsList('news-health', data.health || []);
-        renderNewsList('news-global-udn', data.udn_global || []);
-        renderNewsList('news-koc', data.koc || []);
-        renderNewsList('news-usccg', data.usccg || []);
-        renderNewsList('news-fm-main', data.frequent_miler || []);
-        renderNewsList('news-fm-quick', data.frequent_miler_quick_deals || []);
-        renderNewsList('news-uscardforum-top', data.uscardforum_top || []);
-        renderNewsList('news-doc', data.doctor_of_credit || []);
+        primarySections.forEach(section => renderNewsList(section.id, pickItems(data, section.keys).slice(0, section.limit)));
+        secondarySections.forEach(section => renderNewsList(section.id, pickItems(data, section.keys).slice(0, section.limit)));
 
-        source.innerHTML = `News: news.json loaded · Updated at: <span class="ok">${formatSeattleTime(data.updated_at)}</span>`;
+        document.getElementById('kpi-primary').textContent = primarySections.filter(section => pickItems(data, section.keys).length).length;
+        document.getElementById('kpi-secondary').textContent = secondarySections.filter(section => pickItems(data, section.keys).length).length;
+        document.getElementById('status-sync').textContent = `Last sync ${formatSeattleTime(data.updated_at)}`;
+        setStatus('status-news', 'News OK', 'ok');
       }catch(err){
-        [
-          'news-international','news-tech','news-usa','news-taiwan',
-          'news-health','news-global-udn','news-koc','news-usccg',
-          'news-fm-main','news-fm-quick','news-uscardforum-top','news-doc'
-        ].forEach(id=>{
-          const el=document.getElementById(id);
-          if(el) el.innerHTML='<li>News load failed.</li>';
-        });
-        source.textContent = 'News: load failed';
-        error.textContent = `新聞讀取失敗：${err.message}`;
+        [...primarySections, ...secondarySections].forEach(section => renderNewsList(section.id, []));
+        setError('news-error', `新聞讀取失敗：${err.message}`);
+        setStatus('status-news', 'News failed', 'bad');
       }
     }
 
-    runStocks();
-    fetchWeather();
+    loadStocks();
+    loadWeather();
     loadNews();
   </script>
 </body>
