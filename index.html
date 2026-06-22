@@ -26,7 +26,6 @@
       --shadow: 0 16px 40px rgba(0,0,0,.28);
       --radius: 18px;
       --radius-sm: 12px;
-      --gap: 18px;
     }
 
     * { box-sizing: border-box; }
@@ -285,6 +284,11 @@
       display: none;
     }
 
+    .news-section {
+      display: grid;
+      gap: 18px;
+    }
+
     .news-layout {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -293,6 +297,7 @@
 
     .news-card {
       padding: 18px;
+      min-height: 100%;
     }
 
     .news-card h3 {
@@ -429,7 +434,7 @@
     <header class="topbar">
       <div class="brand">
         <h1>Live Terminal</h1>
-        <div class="sub">Dark dashboard for assets, Seattle hourly weather, and prioritized news feeds from repo snapshots.</div>
+        <div class="sub">Dark dashboard for assets, Seattle hourly weather, and ordered news feed snapshots.</div>
       </div>
       <div class="global-status">
         <span id="status-assets" class="chip"><span class="dot"></span>Assets loading</span>
@@ -449,12 +454,12 @@
         <article class="card">
           <div class="eyebrow">Primary feeds</div>
           <div id="kpi-primary" class="kpi-value">—</div>
-          <div id="kpi-primary-meta" class="kpi-meta">International · USA · Taiwan · Tech · Health</div>
+          <div id="kpi-primary-meta" class="kpi-meta">International · Tech · USA · Taiwan · Health · 轉角國際</div>
         </article>
         <article class="card">
           <div class="eyebrow">Secondary feeds</div>
           <div id="kpi-secondary" class="kpi-value">—</div>
-          <div id="kpi-secondary-meta" class="kpi-meta">Points / cards / forums / local tech</div>
+          <div id="kpi-secondary-meta" class="kpi-meta">電腦王阿達 · USCCG · FM · Quick Deals · DoC</div>
         </article>
       </section>
 
@@ -523,23 +528,76 @@
         </article>
       </section>
 
-      <section class="news-layout">
-        <article class="panel news-card">
-          <h3>Primary News</h3>
-          <ul id="news-primary" class="news-list">
-            <li>Loading primary feeds...</li>
-          </ul>
-        </article>
-
-        <article class="panel news-card">
-          <h3>Secondary Feeds</h3>
-          <ul id="news-secondary" class="news-list">
-            <li>Loading secondary feeds...</li>
-          </ul>
-        </article>
+      <section class="news-section panel">
+        <div class="panel-header">
+          <div>
+            <h2 class="panel-title">Primary News</h2>
+            <div class="panel-meta">Ordered by source · fixed per-source caps</div>
+          </div>
+        </div>
+        <div class="panel-body">
+          <div class="news-layout">
+            <article class="panel news-card">
+              <h3>International News</h3>
+              <ul id="news-international" class="news-list"><li>Loading...</li></ul>
+            </article>
+            <article class="panel news-card">
+              <h3>Tech News</h3>
+              <ul id="news-tech" class="news-list"><li>Loading...</li></ul>
+            </article>
+            <article class="panel news-card">
+              <h3>USA News</h3>
+              <ul id="news-usa" class="news-list"><li>Loading...</li></ul>
+            </article>
+            <article class="panel news-card">
+              <h3>Taiwan News</h3>
+              <ul id="news-taiwan" class="news-list"><li>Loading...</li></ul>
+            </article>
+            <article class="panel news-card">
+              <h3>Health News</h3>
+              <ul id="news-health" class="news-list"><li>Loading...</li></ul>
+            </article>
+            <article class="panel news-card">
+              <h3>轉角國際</h3>
+              <ul id="news-global-udn" class="news-list"><li>Loading...</li></ul>
+            </article>
+          </div>
+        </div>
       </section>
 
-      <div id="news-error" class="error-box"></div>
+      <section class="news-section panel">
+        <div class="panel-header">
+          <div>
+            <h2 class="panel-title">Secondary Feeds</h2>
+            <div class="panel-meta">Ordered by source · fixed per-source caps</div>
+          </div>
+        </div>
+        <div class="panel-body">
+          <div class="news-layout">
+            <article class="panel news-card">
+              <h3>電腦王阿達</h3>
+              <ul id="news-koc" class="news-list"><li>Loading...</li></ul>
+            </article>
+            <article class="panel news-card">
+              <h3>US Credit Card Guide</h3>
+              <ul id="news-usccg" class="news-list"><li>Loading...</li></ul>
+            </article>
+            <article class="panel news-card">
+              <h3>Frequent Miler</h3>
+              <ul id="news-fm-main" class="news-list"><li>Loading...</li></ul>
+            </article>
+            <article class="panel news-card">
+              <h3>Frequent Miler Quick Deals</h3>
+              <ul id="news-fm-quick" class="news-list"><li>Loading...</li></ul>
+            </article>
+            <article class="panel news-card">
+              <h3>Doctor of Credit</h3>
+              <ul id="news-doc" class="news-list"><li>Loading...</li></ul>
+            </article>
+          </div>
+          <div id="news-error" class="error-box"></div>
+        </div>
+      </section>
     </main>
   </div>
 
@@ -547,6 +605,23 @@
     const STOCKS_JSON_URL = './stocks.json';
     const NEWS_JSON_URL = './news.json';
     const WEATHER_URL = 'https://api.open-meteo.com/v1/forecast?latitude=47.6062&longitude=-122.3321&hourly=temperature_2m,apparent_temperature,precipitation_probability,uv_index,wind_gusts_10m&timezone=America%2FLos_Angeles&forecast_days=1';
+
+    const primarySections = [
+      { keys: ['international'], id: 'news-international', limit: 10 },
+      { keys: ['tech', 'tech_science', 'ai_tech'], id: 'news-tech', limit: 10 },
+      { keys: ['usa'], id: 'news-usa', limit: 7 },
+      { keys: ['taiwan'], id: 'news-taiwan', limit: 7 },
+      { keys: ['health', 'health_medical'], id: 'news-health', limit: 7 },
+      { keys: ['udn_global', 'global_udn'], id: 'news-global-udn', limit: 7 }
+    ];
+
+    const secondarySections = [
+      { keys: ['koc'], id: 'news-koc', limit: 10 },
+      { keys: ['usccg', 'us_credit_card_guide'], id: 'news-usccg', limit: 10 },
+      { keys: ['frequent_miler', 'fm_main'], id: 'news-fm-main', limit: 7 },
+      { keys: ['frequent_miler_quick_deals', 'fm_quick', 'quick_deals'], id: 'news-fm-quick', limit: 7 },
+      { keys: ['doctor_of_credit', 'doc'], id: 'news-doc', limit: 10 }
+    ];
 
     function toNumber(v){
       const cleaned = String(v ?? '').replace(/,/g, '').trim();
@@ -668,6 +743,19 @@
       return 'Safe';
     }
 
+    function pickItems(data, keys){
+      for(const key of keys){
+        if(Array.isArray(data[key]) && data[key].length) return data[key];
+      }
+      return [];
+    }
+
+    function renderNewsList(id, items){
+      const el = document.getElementById(id);
+      if(!el) return;
+      el.innerHTML = items.length ? items.map(renderNewsItem).join('') : '<li>No news yet.</li>';
+    }
+
     async function loadStocks(){
       const tbody = document.getElementById('asset-data');
       try{
@@ -762,8 +850,6 @@
     }
 
     async function loadNews(){
-      const primaryEl = document.getElementById('news-primary');
-      const secondaryEl = document.getElementById('news-secondary');
       try{
         const res = await fetch(`${NEWS_JSON_URL}?v=${Date.now()}`, { cache:'no-store' });
         if(!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -771,21 +857,15 @@
         if(!text.trim().startsWith('{')) throw new Error('news.json is not valid JSON');
         const data = JSON.parse(text);
 
-        const primaryGroups = [data.international || [], data.usa || [], data.taiwan || [], data.tech_science || [], data.health || []];
-        const primaryItems = primaryGroups.flat().slice(0, 8);
-        const secondaryGroups = [data.udn_global || [], data.koc || [], data.usccg || [], data.frequent_miler || [], data.frequent_miler_quick_deals || [], data.uscardforum_top || [], data.doctor_of_credit || []];
-        const secondaryItems = secondaryGroups.flat().slice(0, 8);
+        primarySections.forEach(section => renderNewsList(section.id, pickItems(data, section.keys).slice(0, section.limit)));
+        secondarySections.forEach(section => renderNewsList(section.id, pickItems(data, section.keys).slice(0, section.limit)));
 
-        primaryEl.innerHTML = primaryItems.length ? primaryItems.map(renderNewsItem).join('') : '<li>No primary news yet.</li>';
-        secondaryEl.innerHTML = secondaryItems.length ? secondaryItems.map(renderNewsItem).join('') : '<li>No secondary feeds yet.</li>';
-
-        document.getElementById('kpi-primary').textContent = primaryGroups.filter(group => group.length).length;
-        document.getElementById('kpi-secondary').textContent = secondaryGroups.filter(group => group.length).length;
+        document.getElementById('kpi-primary').textContent = primarySections.filter(section => pickItems(data, section.keys).length).length;
+        document.getElementById('kpi-secondary').textContent = secondarySections.filter(section => pickItems(data, section.keys).length).length;
         document.getElementById('status-sync').textContent = `Last sync ${formatSeattleTime(data.updated_at)}`;
-        setStatus('status-news', 'News Partial', 'warn');
+        setStatus('status-news', 'News OK', 'ok');
       }catch(err){
-        primaryEl.innerHTML = '<li>Primary feeds failed.</li>';
-        secondaryEl.innerHTML = '<li>Secondary feeds failed.</li>';
+        [...primarySections, ...secondarySections].forEach(section => renderNewsList(section.id, []));
         setError('news-error', `新聞讀取失敗：${err.message}`);
         setStatus('status-news', 'News failed', 'bad');
       }
