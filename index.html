@@ -333,14 +333,94 @@
     }
 
     @media (max-width: 780px) {
-      .app-shell { padding: 12px; }
-      .kpi-row,
+      .app-shell {
+        padding: 10px;
+      }
+
+      .topbar {
+        position: static;
+        margin-bottom: 12px;
+        padding: 12px 14px;
+        gap: 10px;
+        border-radius: 14px;
+      }
+
+      .brand h1 {
+        font-size: 20px;
+      }
+
+      .brand .sub,
+      .chip,
+      .kpi-meta,
+      .panel-meta,
+      .weather-note,
+      .news-meta,
+      .eyebrow {
+        font-size: 13px;
+      }
+
+      .dashboard {
+        gap: 12px;
+      }
+
+      .kpi-row {
+        display: flex;
+        gap: 12px;
+        overflow-x: auto;
+        padding-bottom: 4px;
+        scroll-snap-type: x proximity;
+      }
+
+      .kpi-row > .card {
+        min-width: 220px;
+        flex: 0 0 220px;
+        scroll-snap-align: start;
+      }
+
       .news-layout {
         grid-template-columns: 1fr;
       }
-      .card { min-height: auto; }
-      .panel-header { flex-direction: column; }
-      .panel-meta { text-align: left; }
+
+      .card {
+        min-height: auto;
+        padding: 14px 16px;
+      }
+
+      .kpi-value {
+        font-size: 28px;
+      }
+
+      .panel-header,
+      .global-status {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .panel-header {
+        gap: 8px;
+      }
+
+      .panel-title {
+        font-size: 17px;
+      }
+
+      .panel-body,
+      .news-card {
+        padding: 14px;
+      }
+
+      .panel-meta {
+        text-align: left;
+      }
+
+      th, td {
+        font-size: 14px;
+        padding: 10px 8px;
+      }
+
+      .table-wrap {
+        -webkit-overflow-scrolling: touch;
+      }
     }
   </style>
 </head>
