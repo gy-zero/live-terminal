@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T07:00:39Z",
+  "updated_at": "2026-06-24T10:00:46Z",
   "assets": [
     {
       "name": "VOO",
@@ -65,8 +65,8 @@
       "name": "BTC-USD",
       "display_name": "BTCUSD",
       "currency": "USD",
-      "current": 62698.57,
-      "prev": 62698.57,
+      "current": 62568.0,
+      "prev": 62568.0,
       "prev2": 62668.02,
       "prev3": 63952.11,
       "stale": false
@@ -75,8 +75,8 @@
       "name": "GC=F",
       "display_name": "Gold(CFD)",
       "currency": "USD",
-      "current": 4103.8,
-      "prev": 4103.8,
+      "current": 4086.3,
+      "prev": 4086.3,
       "prev2": 4129.9,
       "prev3": 4181.9,
       "stale": false
