@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-25T19:00:43Z",
+  "updated_at": "2026-06-25T22:00:43Z",
   "assets": [
     {
       "name": "VOO",
       "display_name": "VOO",
       "currency": "USD",
-      "current": 676.28,
-      "prev": 676.28,
+      "current": 675.71,
+      "prev": 675.71,
       "prev2": 675.69,
       "prev3": 676.34,
       "stale": false
@@ -15,8 +15,8 @@
       "name": "AAPL",
       "display_name": "AAPL",
       "currency": "USD",
-      "current": 279.23,
-      "prev": 279.23,
+      "current": 275.15,
+      "prev": 275.15,
       "prev2": 293.08,
       "prev3": 294.3,
       "stale": false
@@ -25,8 +25,8 @@
       "name": "AMZN",
       "display_name": "AMZN",
       "currency": "USD",
-      "current": 228.91,
-      "prev": 228.91,
+      "current": 227.01,
+      "prev": 227.01,
       "prev2": 234.27,
       "prev3": 234.11,
       "stale": false
@@ -35,8 +35,8 @@
       "name": "GOOG",
       "display_name": "GOOG",
       "currency": "USD",
-      "current": 340.39,
-      "prev": 340.39,
+      "current": 342.19,
+      "prev": 342.19,
       "prev2": 345.04,
       "prev3": 346.08,
       "stale": false
@@ -45,8 +45,8 @@
       "name": "NVDA",
       "display_name": "NVDA",
       "currency": "USD",
-      "current": 194.46,
-      "prev": 194.46,
+      "current": 195.74,
+      "prev": 195.74,
       "prev2": 199.0,
       "prev3": 200.04,
       "stale": false
@@ -55,8 +55,8 @@
       "name": "TSLA",
       "display_name": "TSLA",
       "currency": "USD",
-      "current": 373.8,
-      "prev": 373.8,
+      "current": 375.12,
+      "prev": 375.12,
       "prev2": 375.53,
       "prev3": 381.61,
       "stale": false
@@ -65,8 +65,8 @@
       "name": "BTC-USD",
       "display_name": "BTCUSD",
       "currency": "USD",
-      "current": 59341.66,
-      "prev": 59341.66,
+      "current": 60035.94,
+      "prev": 60034.15,
       "prev2": 60995.13,
       "prev3": 62668.02,
       "stale": false
@@ -75,8 +75,8 @@
       "name": "GC=F",
       "display_name": "Gold(CFD)",
       "currency": "USD",
-      "current": 4048.1,
-      "prev": 4048.1,
+      "current": 4041.6,
+      "prev": 4041.6,
       "prev2": 3990.3,
       "prev3": 4129.9,
       "stale": false
