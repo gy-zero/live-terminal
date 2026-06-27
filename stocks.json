@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-06-27T07:00:40Z",
+  "updated_at": "2026-06-27T10:00:35Z",
   "assets": [
     {
       "name": "VOO",
       "display_name": "VOO",
       "currency": "USD",
       "current": 670.26,
-      "prev": 670.26,
-      "prev2": 675.71,
-      "prev3": 675.69,
+      "prev": 675.71,
+      "prev2": 675.69,
+      "prev3": 676.34,
       "stale": false
     },
     {
@@ -16,9 +16,9 @@
       "display_name": "AAPL",
       "currency": "USD",
       "current": 283.78,
-      "prev": 283.78,
-      "prev2": 275.15,
-      "prev3": 293.08,
+      "prev": 275.15,
+      "prev2": 293.08,
+      "prev3": 294.3,
       "stale": false
     },
     {
@@ -26,9 +26,9 @@
       "display_name": "AMZN",
       "currency": "USD",
       "current": 232.69,
-      "prev": 232.69,
-      "prev2": 227.01,
-      "prev3": 234.27,
+      "prev": 227.01,
+      "prev2": 234.27,
+      "prev3": 234.11,
       "stale": false
     },
     {
@@ -36,9 +36,9 @@
       "display_name": "GOOG",
       "currency": "USD",
       "current": 334.69,
-      "prev": 334.69,
-      "prev2": 342.19,
-      "prev3": 345.04,
+      "prev": 342.19,
+      "prev2": 345.04,
+      "prev3": 346.08,
       "stale": false
     },
     {
@@ -46,9 +46,9 @@
       "display_name": "NVDA",
       "currency": "USD",
       "current": 192.53,
-      "prev": 192.53,
-      "prev2": 195.74,
-      "prev3": 199.0,
+      "prev": 195.74,
+      "prev2": 199.0,
+      "prev3": 200.04,
       "stale": false
     },
     {
@@ -56,17 +56,17 @@
       "display_name": "TSLA",
       "currency": "USD",
       "current": 379.71,
-      "prev": 379.71,
-      "prev2": 375.12,
-      "prev3": 375.53,
+      "prev": 375.12,
+      "prev2": 375.53,
+      "prev3": 381.61,
       "stale": false
     },
     {
       "name": "BTC-USD",
       "display_name": "BTCUSD",
       "currency": "USD",
-      "current": 60288.12,
-      "prev": 60288.12,
+      "current": 60316.91,
+      "prev": 60316.91,
       "prev2": 60016.43,
       "prev3": 59721.68,
       "stale": false
