@@ -1,24 +1,24 @@
 {
-  "updated_at": "2026-06-28T07:00:39Z",
+  "updated_at": "2026-06-28T10:00:34Z",
   "assets": [
     {
       "name": "VOO",
       "display_name": "VOO",
       "currency": "USD",
-      "current": 675.71,
-      "prev": 675.69,
-      "prev2": 676.34,
-      "prev3": 686.1,
+      "current": 670.26,
+      "prev": 675.71,
+      "prev2": 675.69,
+      "prev3": 676.34,
       "stale": false
     },
     {
       "name": "AAPL",
       "display_name": "AAPL",
       "currency": "USD",
-      "current": 275.15,
-      "prev": 293.08,
-      "prev2": 294.3,
-      "prev3": 297.01,
+      "current": 283.78,
+      "prev": 275.15,
+      "prev2": 293.08,
+      "prev3": 294.3,
       "stale": false
     },
     {
@@ -55,17 +55,17 @@
       "name": "TSLA",
       "display_name": "TSLA",
       "currency": "USD",
-      "current": 375.12,
-      "prev": 375.53,
-      "prev2": 381.61,
-      "prev3": 405.05,
+      "current": 379.71,
+      "prev": 375.12,
+      "prev2": 375.53,
+      "prev3": 381.61,
       "stale": false
     },
     {
       "name": "BTC-USD",
       "display_name": "BTCUSD",
       "currency": "USD",
-      "current": 59920.65,
+      "current": 60177.95,
       "prev": 59940.1,
       "prev2": 60016.43,
       "prev3": 59721.68,
