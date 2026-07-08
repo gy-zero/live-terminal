@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T10:00:55Z",
+  "updated_at": "2026-07-08T13:00:56Z",
   "assets": [
     {
       "name": "VOO",
@@ -9,7 +9,7 @@
       "prev": 690.62,
       "prev2": 684.84,
       "prev3": 685.46,
-      "stale": true
+      "stale": false
     },
     {
       "name": "AAPL",
@@ -19,7 +19,7 @@
       "prev": 312.66,
       "prev2": 308.63,
       "prev3": 294.38,
-      "stale": true
+      "stale": false
     },
     {
       "name": "AMZN",
@@ -65,7 +65,7 @@
       "name": "BTC-USD",
       "display_name": "BTCUSD",
       "currency": "USD",
-      "current": 62001.46,
+      "current": 61891.12,
       "prev": 63297.39,
       "prev2": 63995.02,
       "prev3": 63547.88,
