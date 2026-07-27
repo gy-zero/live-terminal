@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-26T22:00:31Z",
+  "updated_at": "2026-07-27T01:00:32Z",
   "assets": [
     {
       "name": "VOO",
       "display_name": "VOO",
       "currency": "USD",
-      "current": 678.61,
-      "prev": 687.03,
-      "prev2": 687.87,
-      "prev3": 682.21,
+      "current": 679.14,
+      "prev": 678.61,
+      "prev2": 687.03,
+      "prev3": 687.87,
       "stale": false
     },
     {
@@ -55,17 +55,17 @@
       "name": "TSLA",
       "display_name": "TSLA",
       "currency": "USD",
-      "current": 319.69,
-      "prev": 374.01,
-      "prev2": 378.93,
-      "prev3": 369.57,
+      "current": 313.03,
+      "prev": 319.69,
+      "prev2": 374.01,
+      "prev3": 378.93,
       "stale": false
     },
     {
       "name": "BTC-USD",
       "display_name": "BTCUSD",
       "currency": "USD",
-      "current": 64983.26,
+      "current": 65058.57,
       "prev": 64311.81,
       "prev2": 64098.5,
       "prev3": 65044.81,
@@ -75,10 +75,10 @@
       "name": "GC=F",
       "display_name": "Gold(CFD)",
       "currency": "USD",
-      "current": 4070.8,
-      "prev": 4046.6,
-      "prev2": 4146.9,
-      "prev3": 4071.1,
+      "current": 4109.7,
+      "prev": 4067.6,
+      "prev2": 4046.6,
+      "prev3": 4146.9,
       "stale": false
     },
     {
