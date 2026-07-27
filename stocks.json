@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T01:00:32Z",
+  "updated_at": "2026-07-27T04:00:31Z",
   "assets": [
     {
       "name": "VOO",
@@ -15,40 +15,40 @@
       "name": "AAPL",
       "display_name": "AAPL",
       "currency": "USD",
-      "current": 321.66,
-      "prev": 325.89,
-      "prev2": 327.74,
-      "prev3": 326.59,
+      "current": 333.02,
+      "prev": 321.66,
+      "prev2": 325.89,
+      "prev3": 327.74,
       "stale": false
     },
     {
       "name": "AMZN",
       "display_name": "AMZN",
       "currency": "USD",
-      "current": 233.66,
-      "prev": 244.85,
-      "prev2": 247.55,
-      "prev3": 249.99,
+      "current": 232.11,
+      "prev": 233.66,
+      "prev2": 244.85,
+      "prev3": 247.55,
       "stale": false
     },
     {
       "name": "GOOG",
       "display_name": "GOOG",
       "currency": "USD",
-      "current": 318.34,
-      "prev": 341.91,
-      "prev2": 346.19,
-      "prev3": 351.37,
+      "current": 319.09,
+      "prev": 318.34,
+      "prev2": 341.91,
+      "prev3": 346.19,
       "stale": false
     },
     {
       "name": "NVDA",
       "display_name": "NVDA",
       "currency": "USD",
-      "current": 208.76,
-      "prev": 212.06,
-      "prev2": 207.29,
-      "prev3": 203.28,
+      "current": 206.84,
+      "prev": 208.76,
+      "prev2": 212.06,
+      "prev3": 207.29,
       "stale": false
     },
     {
@@ -65,7 +65,7 @@
       "name": "BTC-USD",
       "display_name": "BTCUSD",
       "currency": "USD",
-      "current": 65058.57,
+      "current": 65227.73,
       "prev": 64311.81,
       "prev2": 64098.5,
       "prev3": 65044.81,
@@ -75,10 +75,10 @@
       "name": "GC=F",
       "display_name": "Gold(CFD)",
       "currency": "USD",
-      "current": 4109.7,
-      "prev": 4067.6,
-      "prev2": 4046.6,
-      "prev3": 4146.9,
+      "current": 4067.6,
+      "prev": 4046.6,
+      "prev2": 4146.9,
+      "prev3": 4071.1,
       "stale": false
     },
     {
