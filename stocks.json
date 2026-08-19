@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-19T04:00:25Z",
+  "updated_at": "2026-08-19T07:00:25Z",
   "assets": [
     {
       "name": "VOO",
       "display_name": "VOO",
       "currency": "USD",
-      "current": 710.27,
-      "prev": 713.61,
-      "prev2": 714.95,
-      "prev3": 710.17,
+      "current": 705.4,
+      "prev": 710.27,
+      "prev2": 713.61,
+      "prev3": 714.95,
       "stale": false
     },
     {
@@ -25,20 +25,20 @@
       "name": "AMZN",
       "display_name": "AMZN",
       "currency": "USD",
-      "current": 261.31,
-      "prev": 262.65,
-      "prev2": 265.13,
-      "prev3": 267.28,
+      "current": 259.45,
+      "prev": 261.31,
+      "prev2": 262.65,
+      "prev3": 265.13,
       "stale": false
     },
     {
       "name": "GOOG",
       "display_name": "GOOG",
       "currency": "USD",
-      "current": 341.45,
-      "prev": 343.54,
-      "prev2": 343.94,
-      "prev3": 342.37,
+      "current": 341.28,
+      "prev": 341.45,
+      "prev2": 343.54,
+      "prev3": 343.94,
       "stale": false
     },
     {
@@ -55,17 +55,17 @@
       "name": "TSLA",
       "display_name": "TSLA",
       "currency": "USD",
-      "current": 336.87,
-      "prev": 339.3,
-      "prev2": 342.27,
-      "prev3": 339.96,
+      "current": 339.3,
+      "prev": 342.27,
+      "prev2": 339.96,
+      "prev3": 327.51,
       "stale": false
     },
     {
       "name": "BTC-USD",
       "display_name": "BTCUSD",
       "currency": "USD",
-      "current": 64268.11,
+      "current": 64277.65,
       "prev": 64506.25,
       "prev2": 62818.65,
       "prev3": 63024.32,
@@ -85,20 +85,20 @@
       "name": "0050.TW",
       "display_name": "TPE:0050",
       "currency": "TWD",
-      "current": 106.45,
-      "prev": 106.4,
-      "prev2": 106.7,
-      "prev3": 105.2,
+      "current": 103.1,
+      "prev": 106.45,
+      "prev2": 106.4,
+      "prev3": 106.7,
       "stale": false
     },
     {
       "name": "2330.TW",
       "display_name": "TPE:2330",
       "currency": "TWD",
-      "current": 2380.0,
-      "prev": 2400.0,
-      "prev2": 2395.0,
-      "prev3": 2435.0,
+      "current": 2350.0,
+      "prev": 2380.0,
+      "prev2": 2400.0,
+      "prev3": 2395.0,
       "stale": false
     }
   ]
