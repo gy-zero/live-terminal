@@ -1,83 +1,41 @@
 {
-  "updated_at": "2026-09-20T13:05:37Z",
+  "updated_at": "2026-09-20T19:05:34Z",
   "international": [
+    {
+      "title": "烏克蘭逾千架無人機襲俄羅斯莫斯科市遭遇歷來最大攻擊| 國際",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1xRk5JNU8zU2lTYl9odDRIS25hUW5wRnNodm1TemZIWTkxTnRFTzVRU2Vick50VjRoU0c3djU4VkhSNzFQbGJOZXlfVWIwVUdwankzU1pxRVl1aXZFOGhF?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News International",
+      "published_at": "2026-09-20T12:21:00Z"
+    },
+    {
+      "title": "川普對習近平態度丕變原因曝！川習會倒數5天 專家預測最大成果",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBGZWtuN05ma0FOTFpMRklhMVROOWVzTERyWjZGdERXX2pjSG9RODdfbURwMWVpN0xEMGJ0V2pqalJHNWZJeUhTNjg5YkFNem9BaUY0Nk5nTTUzZ9IBX0FVX3lxTE1jeDRpXzRZbVRYcWpKNm5CNVFlWVVyUXRDb0pPM1gzNWh3STJtOHRfbWt0UV82bkpfMG9fRThycXQ0N0JHMkhfN0hOOVUwdWIyMklGaHV4SVBOYVVQbjRn?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News International",
+      "published_at": "2026-09-20T06:04:51Z"
+    },
+    {
+      "title": "俄羅斯將發動「混合攻擊」？歐洲多國急升警戒 台人憂爆三戰：亞洲也不安全",
+      "url": "https://news.google.com/rss/articles/CBMiwANBVV95cUxNdUtMa3FERGJJT0RwblJlb2tiY0t6QzJBb0l6eTU2X01mWndyMXdWZEJEZm5IS0dCTmVKRnNTcnlJTnBzZzRmSmZKeUx6cTdKMWota3dpM3dPRDlxNlRacndKOTJMLUhUMjVUUnJmX1AzREw0X3BsVkhaR3BJVlV5R294SVZoM0dvTWRmLVdvbXlmWGpfNDg5T01fb1JiU0t3a1RYNnRkd3pndlZxaWN5M1pvVXIwWDJCY1BzQjYxc2lsdW04a0JORG9GZzk5MTRDTWFhZm1RRDJMMTlvUWF4OTNDcEhQUXBfUjNCbGpXZHc2aU81WVNEa2JzY2FJcGM0Wm9yZnRIbnB4RnQwV3EweGtHTklCTHFkcFVnTU9iRk1JSi1TWVhoNXVRc3N6ei1VYlAzYTVkTExiRktoTWZHTDJTQWFvVmtiZjZoMEV3ZmtkRG9zVTR4c2k5UUFOazRXdnYzbDQxMU1xMmlUV1Z1LUwyTWtkeHU5S3QxYWFrOWhnelVlcmJESTlVbFpUWHBvc3lkdDlPelMtTXdQSzVUVWppTVU3RFNqTjA5cXhoc09uTWJoZmlmNlM3TnQtZlVM?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News International",
+      "published_at": "2026-09-20T09:25:00Z"
+    },
+    {
+      "title": "空服員住飯店有秘密！進房先做「6件事」 90秒快速保命",
+      "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxNdGw3OC12M2NsS1d4Y0JmYWFsOHNFMDNRT0pWNW5icXExalBCckhPQkVnUXJUZm5tQWRMTFJwMUt4bENJV0M2NTlYeG9sVWRKcnNGM0VjS1R2eGlueWFUeUhHRldQTXFaRGtYekE1UXdqWm9mU0JDQVAtWXBza2lhcTVqVWVtRzZHMldTaEJDeTBxazlPN19LSkU2R0ZoTDJEVFMtWmNEeHdwTXVndThjTUJ0ZUxVa0FHMHhFT09KRXdOOEVCYkNoUjFvZ2I0Mk05ejROdThSWTJlOWhPM210QnRaamgtcEZ3MDAwNnFhYXBkb0k4cUN3SUFOWElVTFVrVy1OakV4RUhQZVZCbFI5T1VFMUt6SkQ0X2VmenFmTU82bUQxa1NUYy1tRVRHdVhiUEFmU1JUVGFlOTJhMnoydkdQcW01ZF84UXNj?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News International",
+      "published_at": "2026-09-20T07:36:01Z"
+    },
+    {
+      "title": "日月潭萬人泳渡2.17萬人分批下水 西班牙泳客率先上岸",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9yZHBIdGxGTDFHcktNQXp2eG8wX2owNll2dDZzRy1yMTRrczhFSnAzRDk0clk4Tlo4azE3VFdDdWxFZWVWcUhpbWhzUy15MjdFR0FkamNqa3lKbktzbmdNWXJ3OEfSAWpBVV95cUxNUC1XUXBwazRKSHF3NXlVVDhWNXV5bUhpLVJSTXJNejhHUC1kMF9zTnRPUVRXZ0gydnROTGZhTmYyYk1sZ0xiSk9HZjl0T0pOVWFMVUIzRUw3MVEzTmdOU2N6YVlwbFFnLS13?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News International",
+      "published_at": "2026-09-20T02:41:15Z"
+    },
     {
       "title": "不放假、又導彈！北韓再射疑似彈道飛彈落入日本海 距上次發射僅隔8日",
       "url": "https://news.google.com/rss/articles/CBMitANBVV95cUxPMGxlVnBESy1fMnJZOWxTWUFYQWM1OEZCa1gxMVhMUHVad0xheVVGQzdwRC1pdnM1NVM4SzdNQkJSa09zWDExWWJEZEtFZnpYZ3FscU9idlZxT2hMRERuaFJSRnh5blRWS0JtVlp3NG5xaG9tQzdaNEttZ3dJTUlkS2pVWTZrWEZibC0zY0lRTXRCTTBybTc4LUVETll2U2I2WFFZbkdiWmpTRm5kRm9hQm5oNERfOElLY3A2bDF3cUI2bWZQbFRzUENDaDc0Mkswb2xWcTU0Q2Z2OUxJb1VWWG5yeHpHN3NWWEFzSmgydFFZblNNVHZUVVJEWVN5dVdCWnpLWk9MNDdLUzl3cnZ3SjgxZVNYdkdtQjJYNUZiSnFtSm5mYjlLUG42ajBDOHUwT2Y4NHFZOW4tbFNnTHZBek9DQVBoUXRXVlhjckVBRGplb05GY08tRGVnVzVDZmtFNWNXTElHRHhGa3ZkNzhPQ0ItQnBUaWdZekc4UEhfWlBJVzJSdHF2NlV5NlJuN2hwdG1XNmRNY21ib2JvOVg5d183dUFvU25XVHNrQ0JXbUxyeUJO?oc=5&hl=en-US&gl=US&ceid=US:en",
       "source": "Google News International",
       "published_at": "2026-09-20T06:55:30Z"
-    },
-    {
-      "title": "35歲女護理師「嫁給公車」！為愛辭職當清潔工 最怕老公被停駛",
-      "url": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxQaGE1M2NmaXJNVjRTXzUyY1NjM2FWSmVDZERzOWFlZGpnUHVTTTBkUVhPR2hCV1c0QVdjRDMwbkVaTDlJQ3ZUTnhHS0J5QzlvaXc5V1hndVBzWHBraWZ3akpNNG1VRENyMnFoRkk3SHlVNUxOMTVRZzdxaU54aFYwYnJEMVpVMWZGSlVDOW5YSG1JRmVpdnU4MmZ1RnNYRmZJdjE4UUJDUzE1Y2NvUWhJemdLazQ0dXFDalBqRnRUQ0llTE5WOXJPQW1DZklVX3FfUExvVVd5VnprWVd5MjByTmk3RmVhZ3pWSHI4eVRfcko5MDZWVXBjUFFRS1ZjZUVabzJtemxiMkQ0a3RIMzhyY0xnRWhOaWZxSTNZVlFFelN6eENTWkdJd25HVGFoLUVXb0ZVM3QtbzZheERaMzg5X3B0YXltNTV5YmRZUDg3dXVCQTNzYURVNGhtQ1YzRWxyeGVHemxwdjRlaWs2S05OQVY1dVBHQWNORHc?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News International",
-      "published_at": "2026-09-20T06:42:42Z"
-    },
-    {
-      "title": "川普對習近平態度丕變原因曝！川習會倒數5天 專家預測最大成果",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB5NVZLSlhrZWwwTnExR0ljS1c4RkR0NDFzMWZqUzd5ZTNaSFlwZXNBZ0ZUcFNOZ2NrM0F2ZkM4SXR5emdmbTZTQnlRcEw3N0450gFWQVVfeXFMT1FCak9EYjhkUHoyeWpNRWVscHROVnc2RjZNeFpIZG5sRGstejNSa3YwWUllV3Rqa3ZiSmJKSTVZYTdWLUl4WEVzc0x2ZEMtend6NWNCVHc?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News International",
-      "published_at": "2026-09-20T06:04:50Z"
-    },
-    {
-      "title": "長子百萬婚禮派對「普丁親信埋單」鬧大！ 川普證實：他要還錢了",
-      "url": "https://news.google.com/rss/articles/CBMihANBVV95cUxPYkk4MlNOVHYtZmVRM09tVUNGdGNTTmxVQmgzeFRvb1RsRnVDQnlkaHd4T1FqUU5SY3VfOF9PTFVMZG9wdGZLRkY5cUxmdnUySm9ZbkhMY19UeDRKeHg2SWhITEFXa3dRX3g0Wl9GNDBXaXhEZ1BsZG9uX0QycGc5U3JkZHQwQWJpdUZNM3NtajRoejluUTBPa0dDM3llamJsRlB0OVkxU2V1aFdGSHNCaHdkb2R4N24yNjdhQS1rX2gyNlB1ZkZ4VEdjQ1IyQzJCM25XcHNiOFBaaTRCVFM1NUNHclBjeFB3Z2JyMEdWd3c0VjBZVzVva2lZVVVTNC03TzBxMDRuQjVhRjFDa2twM0lTVlJsbHZvNUh1Uy11d3E0d0c1eWljMjhfNmZKVDNvWDd5ZGVzc0I1RnB6a3h4VUZEWFY0SEowSlFBLVZLbVFfSWtNaERzSFA3YlU0RXNiU19famZIWkxEUzcwY1pGczJVLXVPME8wNUJ4aDVfNG9XdVB5?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News International",
-      "published_at": "2026-09-20T00:31:34Z"
-    },
-    {
-      "title": "疑當「豬仔」脫逃！陸男柬埔寨街頭崩潰下跪手握求救信哭喊：想回中國",
-      "url": "https://news.google.com/rss/articles/CBMiqANBVV95cUxPODlUZjc2NXpPbHJIRC1WZHhjaHZNSk1uOHJ3ZE16VE1SbEJNUHhfeGcyX3l0eXViXzkxNHFpRHJhS1RLdHFpdUcxdWRNT3JheDBXZ0p2VndOUFNMSzhnTXN1T3dKVUlOcTdnMTlsWjFpZHRtVk5QOFFEeXZfWldVU3Njb2xtajFlcXB2dHFkc3BKdHZmU3lLbUMwaVpvY2F5QXB0d3RyamhRb0tFRTkydmp6cUxpY2dOX0VBd0JhUFFCNW11V2JJUkRKVHh6SUVxaFRVOER3aldidGw3ZUlaTVljWDJLVDloLU1OWXVkNVk5OGR4bTRTdnFIOFJ2OTJNU3F1N25CT3d1ZXFMczRfSEpKcVJsem9CTkdrRjI4SHU1TmgwMThnMXpaTTJydjZyQWdRT1VZUmFId00wYV9WbmFHRmZjNWc2c2ZZUFZMZi1EN0w0X3JVMllSUUlUcFpNYnVBNFo4cHQwTnRQUF9GdS14aDU1clJZSTIwdE5zTk1VOGZ0N1VITE5UcWg2em90Q25JQmEtbkJoUXZOaWlFMC13Y0cyTVJx?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News International",
-      "published_at": "2026-09-20T11:07:00Z"
-    },
-    {
-      "title": "新聞幕後／少了馬英九的日月潭泳渡 原本「他」將頂替上陣",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE84Vnd0RWswS2laQmYtNHVJSVFZeDQybE1LVEczOVN0YnpvcmxPYnRaeUZQbTNvYnE0RmxyekFpVWV0VjA3RklxeDRFRlU5d05j0gFWQVVfeXFMT0tUeV9aaURldEVOeGtrc2YwOGdLVWlCektXc3ZIQ2dtQkh3WDRNb3Z3UW5Na0ExQVgzSWFjclRESWtMRGY3NGNfQVdiaUoyN1Y5SGlZVGc?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News International",
-      "published_at": "2026-09-20T08:46:27Z"
-    },
-    {
-      "title": "川普高球場激吻火辣女幕僚？照片全球瘋傳 「手指」透露真相",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9BamRCcFZMMzlwRjVadDJGWkpqREpmWXF4NkN6bzJESVRsajRManJXajl3UnlGeFNhYVBnM0p0cENIVHhQQ3Vza21GQlNPTDh4YkpLa2lGclNvZVhzUkNzTXJhTmV6Z9IBa0FVX3lxTE5OeFMyOVdTZkpCMXdLczNvS2ZXcVg1dFpvVGZ5d1RxMlQzTTJYeENjb3ZnWlotVGRxdmZpMTZaWGYyUEpFV0luUnhFUVBtN2RLcno3RHhMUnpuM0xia2k0WUJTQ2ZmWHdjd2c4?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News International",
-      "published_at": "2026-09-20T09:59:36Z"
-    },
-    {
-      "title": "伊朗戰爭美軍死多少人？《華郵》爆至少比官方數字多4人赫格塞斯怒斥- 國際",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVLThxQmszdm0wZVlneC12S0plMGctQkI1X3o2aG5KMzVnY1dFNnh1cnNVY3NyOHR2bVJWRUJnUURwTHlOOEZrSzREcDl4UmhlNXRlUmlaaUhhSnpLQkh5czJ6NEhmMHVTczAtNnhn?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News International",
-      "published_at": "2026-09-19T09:06:08Z"
-    },
-    {
-      "title": "川普取得格陵蘭永久掌控權 趙曉慧：中國「冰上絲綢之路」遭遇毀滅性打擊",
-      "url": "https://news.google.com/rss/articles/CBMiwANBVV95cUxOMFRWQ1JJN05NeWlIWndVc0ZtanRRQVNsTTA0NzVuU09VOEpMa0JEODM1RElfaUx0SzdWaTYzUVFxaHQ5bEdZbjdSX1laZm9BZGVtWnV6MGlQTUU0NWdJRV9GZURobllvX3dsZHg3MmJhSnMwMnM0UWJXVXRSemJ6LTVpdlRwcldjNjcwRnY3Sng5bTNUX0VGQ0dDU01PWjB2NS12dkd0Zm1UT3VmV2xQQUdQRGdwWDRhc3NqZEhJdTI1ekR4WHp0bU9WT3lETVVvY3lVeUpsZlIzbFRNM0x6T3Q4cERiMlQ0d0RiZmoyQWJGbkJKdTlqby1tTk12MUVELXU2V3JpMzkyMUtiSHBPRUtkYkxXck1nb2pXNVNLSzROZldDVnEzSDNWVGdsS1dNVDU3b25FTkhjQ2F5Y00ySmNHRnF5YVZFZF9FeXVCa04yRWFCQjNsQ1YtQUEtODNwdjhxTWRsZ3NBTElTWEhFamJXR1c4cVpyUGZnV3J4eVFVX1gzd3FfQ0t1MG5kc0VRS19vSDVaa2kxTC1Xc2tHWDRGQjd3Qy1NZ055bFoyVHVfZ0RFZHo2azA0OXZMYmNY?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News International",
-      "published_at": "2026-09-20T09:01:36Z"
-    },
-    {
-      "title": "首次拉響警報！沙國首都遭葉門青年運動轟炸 居民：真的很可怕",
-      "url": "https://news.google.com/rss/articles/CBMijwNBVV95cUxQOW9UcGhTMlI2d1g1c09PYjZXYnl5dmlnZ1B0MlRWNkxrWURnRUtSRUh3anM5Q1pndktBYWR2cU1DVFMzYjdGLWJJdlQ4alh6RUdVa1EzWXRWQ1JNU05xdTdUbEFFN0dXazRaWVZabHVCMHRHcDgxVm1WNDdyMkRPNVU3UG1uS3BWY3pxT3ctV2xzX2pEWFltRXV1Mlg4eGs3SUxOUVdfb2tkYXE1SVJsNlVmbV9GeUFzcVVIUXRobGRJaWlOQllHVmNFM0xWdnFuZTFVQjMzNGxfU2lCM0dlTzFyN3hfUWN0NTZzMzlFT0o1UXlTUEdxWGhSMzBab1V0bTJZZlJtTTNSbm1RNTdaWXZDUk1rY1RMLW5NeVFJWGJqVnJpMWNUNTJvekhQM3FUVWV6QkRVc0pkUmZDTEszT3p4bjdZVTlWRDFnOWd1aDNtNDlzTGVGZi1ydndNNDI0a0FIRDVaZ1gyOXc3WlZfZEV6dHc3QUpXN0xqYTNLMGNWbm5QVUR4bXVvb3ZjRjQ?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News International",
-      "published_at": "2026-09-20T06:36:15Z"
-    },
-    {
-      "title": "川普宣布將成立人工智慧部隊 近期任命新AI沙皇",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3b19udnNtZHBaUDkxMG8zaFFrTFVLbVFLb0VGOUJYQ2VrNXdRWlYzUDhZdU82cGFVdWFyQlNpSFo5QzNDbVQ1d2F4OFRscHN3OHNoNy1iczhGNjNobzRN?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News International",
-      "published_at": "2026-09-19T19:09:00Z"
-    },
-    {
-      "title": "稍早才發9國安全警示！川普突提前返回華府 傳考慮空襲葉門",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Pc0RKSWhIV3N1S0pCTUI5THQtQkhIMVR0dnlxclhUYVEySS1xNlZiU3hldkNQaldLakw0ZHpYdHhHTnhvVzFNSjJtTEZ6d3hR0gFWQVVfeXFMTjRCenhVTUVyY1Q3a2Zkckhja3VJRncydUpYVnNBRHFvemwzQ1BEbWNza3BiNGhqVzRKSEJGSlBoWUtNSW9zajZvX2x0UkItSXFfRDBZOFE?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News International",
-      "published_at": "2026-09-20T03:22:28Z"
-    },
-    {
-      "title": "俄控「有史以來最大規模」1600架無人機攻擊 澤倫斯基：莫斯科必須結束殘酷戰爭",
-      "url": "https://news.google.com/rss/articles/CBMi0gNBVV95cUxNUVI4TnN1Rl8ySVdJYmN0LTZrRjNWZ3dJUEVJY1k3Wl9KRFd4dEpkaE1wdWstLUFRcVFfUlFtdTZMSUJRekUyQVo0RC14b1FxaFNKVEVuSGFfUWRpUDFDTmtmQk9zdXNZVGVzdnE2X2RmZlJhbmROeUlOZjd0cTU2QW5oSC1WUmpJWF8tUk01MHpwR3dfLXZ0N3p0RTVscHdVc2JaTnFJTkVQVXp1bEw1RExuVWtqOEVYcGNpaTg1eXY3TTd1SzExTTBjdkppX2Iwczh6XzZaMDBaM3J5MnBwZjl6amo2d25UTGtGVkdkY1hOeXRSUy1CNmhvRnRmZDlhUE1tQjN4VWFUN2VMODYxZU5nNnBVOVhVMVpZd0dUSk1jbHFVRnJ5clZQbDBUdkpIZ0ExM0ZVLWxjaHhSWEZva29KUlFIT3BzejVZOUk1RTZRVnpHcHkxeTBBVUsySFoyUkdwQzdOZnNKVWFBYTJMU1FSNmNYYVQzbW5LLVJHaXNDSkg3cWQzdWtNTDhhaXJYNDBRMmYyQVBuRUpCMFRrMC01SEQtX0xPaWJaa3RoUkdTd2dhNThYcndnU1VzdC12dzRfeFZzOF9veG1JeGt1bi1B?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News International",
-      "published_at": "2026-09-20T10:40:47Z"
     },
     {
       "title": "重啟談判有譜？伊朗向美開「7條件」 等川普回覆中",
@@ -86,28 +44,64 @@
       "published_at": "2026-09-20T08:35:00Z"
     },
     {
+      "title": "伊朗代理人猛轟沙國！土耳其表態出手相助 美國急發9國安全警示",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5mY1o2Tmk3ZUNSNUVDdXdXVzdtWEx2T2ZmZ1gxOXNSM1RmRnFVNTNXLVpzcTRNMm56dDJiMmNmVWtiTEFvdmxnc1lHR1pubWh30gFWQVVfeXFMUGF0b25rUDRUVkMwQ0ZGQVJXSGZ5U0RxMy10Y2N2Mk1GT21mVzdab095SkY1NEZvak9qemtza2wtTWZtNXJQOER0ckl4TFBmZHZjY3ZCT0E?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News International",
+      "published_at": "2026-09-20T01:11:14Z"
+    },
+    {
+      "title": "川普取得格陵蘭永久掌控權 趙曉慧：中國「冰上絲綢之路」遭遇毀滅性打擊",
+      "url": "https://news.google.com/rss/articles/CBMiwANBVV95cUxOMFRWQ1JJN05NeWlIWndVc0ZtanRRQVNsTTA0NzVuU09VOEpMa0JEODM1RElfaUx0SzdWaTYzUVFxaHQ5bEdZbjdSX1laZm9BZGVtWnV6MGlQTUU0NWdJRV9GZURobllvX3dsZHg3MmJhSnMwMnM0UWJXVXRSemJ6LTVpdlRwcldjNjcwRnY3Sng5bTNUX0VGQ0dDU01PWjB2NS12dkd0Zm1UT3VmV2xQQUdQRGdwWDRhc3NqZEhJdTI1ekR4WHp0bU9WT3lETVVvY3lVeUpsZlIzbFRNM0x6T3Q4cERiMlQ0d0RiZmoyQWJGbkJKdTlqby1tTk12MUVELXU2V3JpMzkyMUtiSHBPRUtkYkxXck1nb2pXNVNLSzROZldDVnEzSDNWVGdsS1dNVDU3b25FTkhjQ2F5Y00ySmNHRnF5YVZFZF9FeXVCa04yRWFCQjNsQ1YtQUEtODNwdjhxTWRsZ3NBTElTWEhFamJXR1c4cVpyUGZnV3J4eVFVX1gzd3FfQ0t1MG5kc0VRS19vSDVaa2kxTC1Xc2tHWDRGQjd3Qy1NZ055bFoyVHVfZ0RFZHo2azA0OXZMYmNY?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News International",
+      "published_at": "2026-09-20T09:01:36Z"
+    },
+    {
+      "title": "人妻性侵家中愛犬！房內脫衣「緊黏狗屁股」 美尪見監視器傻眼",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5HNXRleHMycUo4eXNsWTZfZ1NFQ3ZZYlkxRTlfWUVpZkhyejVGa2YwbTFWOXIzZGdZUXNOZGE4bmhvdTNqTDl3RWItb0taSlE?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News International",
+      "published_at": "2026-09-20T00:15:00Z"
+    },
+    {
+      "title": "川普宣布將成立人工智慧部隊 近期任命新AI沙皇",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3b19udnNtZHBaUDkxMG8zaFFrTFVLbVFLb0VGOUJYQ2VrNXdRWlYzUDhZdU82cGFVdWFyQlNpSFo5QzNDbVQ1d2F4OFRscHN3OHNoNy1iczhGNjNobzRN?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News International",
+      "published_at": "2026-09-19T19:09:00Z"
+    },
+    {
+      "title": "川普突提前返華府 傳「考慮空襲葉門」",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPRW55d0VCSUdnRzFpWEJWSVNqazFaM0Q5WHUzdTZjYngxRXV2ZFRLWDUyRkctNjZZaXF1ZElobXpnaXRJTlNHc1Q3bWZpaU5RbXZybzhKR1A0MTVhbS0zLUFpODB0NjRDMTZiS0lUOHpMMnZxVi1EMkFLOEExTnVhXzF5NUxmOG5LVkhxd29jYmJjNXFEcG1JckZPbnlTaHdpZVVGc25kZjAtZGU5MFJCdnZlZWZkMVlLaTRSV2lEMDlIQUozMmt0NkdIWWFVRUM4aktnZFU5UENYdERkMXh6MnZwTTgxR19YbDEwRV9oMVBnLVEzd2U1eFREZnAwdWs1OWNBZVJXYjkzUQ?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News International",
+      "published_at": "2026-09-20T14:42:00Z"
+    },
+    {
       "title": "痛斥假新聞！川普禁止3家媒體進白宮 挨批違憲",
       "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxPbW52TE5ubk1tN25NNmhCSE1xWmFTWWUyN0NNeFJmcTN2d3hueUxQaVljcEt0Z0NCSWZrVW1yYzVkRWxPT2tndTZXdVhlMl9hZkU5U0xvS2pjNnVOOXRlMG5BZ3JKRGJBYkJIbDMwM05NZXZZSWNSdzMzLTZaRzJSMWM5OEZGQUFPQ21HNlU4aG5fRjF4dFpxNllaN0x3SnlUNWxPdUtiNkR1ME9KOVpwbk9YYlc0NkJkVXgyS0VJQmtQUm1ZSC1rMkVLSUFDSl9STTAtYlRvSnNWZU1yakF4RmU4QlVkVFByYU1leUMyeUIzUmtXTnRncWdRNkpnTE1odDBaZl9hekVFZUpZQjZES09wbkxhM20wZm91RnJrXzU0ak14bHFqd0M0VmN6bDAzS2tzSGladEVYbjg?oc=5&hl=en-US&gl=US&ceid=US:en",
       "source": "Google News International",
       "published_at": "2026-09-19T23:10:04Z"
     },
     {
-      "title": "歐洲拉警報！俄羅斯將開戰北約？邊境鐵路遭癱瘓⋯波蘭芬蘭、瑞典德國法國警告：俄將把攻擊包裝成意外",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMlpTTlNkQ3NrSFhNekhNUmJzVVVkRS1oYUxpN0lXMHNpMFpMdTBDU2ktNDc2RlNMeTdQY2c5N2xzYjZXcXlBai16VjRoaW5JNEU3b3VqR2trQU5FelgxNGJET1FvcXZSWUNacjFBRm1SY0x1bTh6aXNGWjRiUzBxaw?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "title": "習近平出席金磚峰會傳身體不適 莫迪兩度問「還好嗎？」",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBURnVrVzBXRFZGbVNOaWNuWGx0YWhTOWp3WVdsZnMyVDFueElMa0txMnRoM2cxd2NyZnM1dWhIVFRoeEZRWU8ya3ozSTN0QW5s0gFWQVVfeXFMTS0zRWYzTEotYVEzbnY4VDlCUnVLM0h3SF9DaGlFcHhOaGxxemU2NlZNU2FUVTNWS1Y0OU9qX1R5ZUtSRVUyS0xkY0ZkLWVrcVhKWWdySVE?oc=5&hl=en-US&gl=US&ceid=US:en",
       "source": "Google News International",
-      "published_at": "2026-09-20T07:27:00Z"
+      "published_at": "2026-09-14T01:54:28Z"
     },
     {
-      "title": "學者：習近平像「魔術盒彈簧人」川普摸不清老被反將一軍",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9IOXNOZThpbmRBQ2ZqaDRPRXB1Ylk0ci1ROXlFOTRBMnNpVWQ1Tld6d0c4dF9NN2pvZ3R3MmowS1Z3NDlyZWlOVU4yMmtkNDhkV3JPSzNYOEVTbENuZXU2ajh30gFnQVVfeXFMTVJGZkxBYzM2MkE2MG40VU5RRXhGdXkzOTJhcHJQeEZlQk16MmlkX2ZBdGhMcTNHQ1JjajZUSUVBaXFZUjJhSnJMb0owMW1wRWM2aTBfRHJhRTFLb3lBWjFPTEJPdnVURQ?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "title": "董建華告別式 採「中國國葬」規格 中共中組部長石泰峰出席",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9lYmxHWmd6R1NYQy1odHR2SnFwWnEzbk5oamJzZThxQkFENkdWaTdpYWlsUGNNdWM0UllvQUhNZUxhU0FQRnFhT1E5bVBQNERWNHVmaGJqVjc4czNENWhhaXVB0gFnQVVfeXFMTWp0czRXaVE1TVdjeDdFS3REMzYtdXg0aXFsM2NfRTBJRlB5UGVaNXFySThWLW1SekhWa2p1UEhZTGk4akZwUlJBdVZPaW1mbGJuRlFwNUpRMUxnY2MtUENud2FLV0RHZw?oc=5&hl=en-US&gl=US&ceid=US:en",
       "source": "Google News International",
-      "published_at": "2026-09-15T04:25:53Z"
+      "published_at": "2026-09-20T05:11:02Z"
     },
     {
-      "title": "大雨隔天...土石流「活埋」隧道 5工人失聯待救",
-      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNQ2xkQjBpZ1pUbENYR3RESFJjVUQzaTdXeldyd0JKMlM5aE1EN24xWEdnN0Zfbkx5bFlqSllnVHFqc1FlV2JrWWp6THRmUkdVVEZfdDVJS0lvblplbkVsNWszWVVVeExJd0t5RFdiY0Jtb0FWTDdMcTJsSGxwUlpmVHRhZFh5bHdoY3JTVFlrNXF5cUFEendlZTZ3REJLLTgyMGlOS1d0akxqc200Qm9jZHZEWnk3b0pIX3hDblZjekFVVlBiNlMwTERsZnRTVXB6VFJNYUxmUnVLN2xSVWliT1ZXZXZFUHZKcm1mYzhzbGN4dmFYaTBEOFBkdEpqOVNYVnlIcTNiUUhTeUU2VVdua1JJcHBHRFAxS0V0QUNMVUZDRkZyT2c?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "title": "川普高球場激吻火辣女幕僚？照片全球瘋傳 「手指」透露真相",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9BamRCcFZMMzlwRjVadDJGWkpqREpmWXF4NkN6bzJESVRsajRManJXajl3UnlGeFNhYVBnM0p0cENIVHhQQ3Vza21GQlNPTDh4YkpLa2lGclNvZVhzUkNzTXJhTmV6Z9IBa0FVX3lxTE5OeFMyOVdTZkpCMXdLczNvS2ZXcVg1dFpvVGZ5d1RxMlQzTTJYeENjb3ZnWlotVGRxdmZpMTZaWGYyUEpFV0luUnhFUVBtN2RLcno3RHhMUnpuM0xia2k0WUJTQ2ZmWHdjd2c4?oc=5&hl=en-US&gl=US&ceid=US:en",
       "source": "Google News International",
-      "published_at": "2026-09-20T09:27:00Z"
+      "published_at": "2026-09-20T09:59:36Z"
+    },
+    {
+      "title": "年賺3200萬不幹了！學霸成人網紅宣布轉行當醫生- 娛樂",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lRGk4ME5yMHFnOHlCczVpdzcySTlYVFhuM2c3ZGQzM2Z2U183RUZFTTQ0bnB4TFhnMkdRcWpwOVU0MFVrT210amQ1anFEWmdZNFhBMzQ4VDVhWGM3el96SVpFemJRZm01anBrZE1R?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News International",
+      "published_at": "2026-09-20T08:39:46Z"
     },
     {
       "title": "「身價2835億富婆」鑽市場吃30年老店！一桌街坊早餐曝光 網誇：沒豪門嬌氣",
@@ -116,10 +110,16 @@
       "published_at": "2026-09-20T05:01:36Z"
     },
     {
-      "title": "習近平等中央領導對董建華逝世表示沉痛哀悼",
-      "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOUEhHTFF5c05WcE0zUUVSMl9xVURaUjRuakU4QnpTVkl2TXJkYnpFdmRLX01kNEVZbVloeGh1RjdKNG1nWFN4ZkFUVG5PR1JYSW40R3FoVDRsRFpwR3dFNk51NnZfbWpnVno3UlpoMkM5QXYxVl8xNVliVW5MS1dNVU1peWV2WXdJUUxKeWNKUUxoanRzdklOeDlwWXNVU2Fsb2U4QnBBVVhxalZLQXFVNGdsY1hWRTd5NGRXZFItNTR1ZjlaZ0tpNGR3VzFJYnVxZW44SVJMOU9fZnEwcFZ0Q05ScDNmR05Kd1l0OVBRRjJ1QXZ3LVVST2hWSDNucTBNbTRLV3lsdS1pNmpKWWRxTlpNeGdOQ24yN0JLT0hmRXJfbzNfM3VhRC0xZzFmRnptc0VZdUY5TUIxenlRRWlxTlRXTQ?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "title": "35歲女護理師「嫁給公車」 為愛辭職當清潔工！最怕老公被停駛",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qNmFrcnFBZlpoSHExX1RwUWFuN25Kb2tPODU0X3hDUHJrRmw3bF9vLVFCWU9vbXY0TzJQOHNNc0QxbWpqLWd4b3p3TEk3MmtHWnM2eHozQ214OXYtY3fSAUtBVV95cUxONkMtc0lwMmEtZkdrbERzWXFJU3o3RUw5SV9IOU5fRktlY01GYTZTcVlJYkQwZ3Zackg2WS1BOERaVGs1SkxseDBIQzQ?oc=5&hl=en-US&gl=US&ceid=US:en",
       "source": "Google News International",
-      "published_at": "2026-09-20T07:09:30Z"
+      "published_at": "2026-09-20T10:19:00Z"
+    },
+    {
+      "title": "MVP美女廚師遇車禍！右手廢「神經麻痺」跌人生谷底轉戰當女優爆紅| 娛樂",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBaUWY3bWVMTmNmdjM4U0xVZFZHMkg4bmFCNU1nS19GYlFtQVRqRW1lQkhiUGlLVTNycFVOSTY2X2tiUnNNSlo0RQ?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News International",
+      "published_at": "2026-09-19T08:01:00Z"
     }
   ],
   "tech_science": [
@@ -136,10 +136,52 @@
       "published_at": "2026-09-19T01:00:00Z"
     },
     {
-      "title": "童年經典《瘋狂計程車》回來了！《極速環遊》公開日本地圖 熟悉的瘋狂飆車再現 | 上報",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KbEtxQS1vbHdxcndzMkRrZWw2RnlManNvVHY5MFpWVWx4X3ZaN25wZThyX2FjMERjSGJhdlFTdWdyUURibGJ1SW5SVGZFMldRT2xJbjRB?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "title": "無網絡也能玩 16 款數學遊戲 原價 US $2.99《Math Games PRO 16-in-1》限時免費",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTG4zSXlHSGdKRGZxMWdlWl9WaVR6UVMzTDFmOEVqOHBKWmVpemVZX2VjUHZET1ZEVHZ6R1hhRWdaOWtJRU5IRFRKdkpJY2JCTWg4bkZJVl85enhXMmpfUkc0MVJmbU82dmJkWG1va0lscEhTdGs0LVJQaFoyXzhFM1llNGpuQ05KVkh0LURsbjRLVDU3ZXNNcDM2M1haYlUzdGM4?oc=5&hl=en-US&gl=US&ceid=US:en",
       "source": "Google News AI / Tech",
-      "published_at": "2026-09-20T05:45:22Z"
+      "published_at": "2026-09-20T15:56:03Z"
+    },
+    {
+      "title": "Google Pixel 11 Pro手機開箱實測！120倍變焦、一鍵抓拍功能大推，更全面支援AirDrop傳照片超快",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9WMFN6djhCV3dhYjJVbEE1RkVDTFNTRGxiQzhTQzBWOEJ5Z1JKSVk1SVFuQWFTbURpVGdZMzFJUTVCQ3ZheXFXSlZvU09SSWljc1pNOEFfU1VPcE5oZmhPWg?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News AI / Tech",
+      "published_at": "2026-09-19T16:47:26Z"
+    },
+    {
+      "title": "自製社交平台分割拼圖版面 原價 US $0.99《InstantGrid》限時免費",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNFAtRXQ4R041WFpsWDZWOTZBTFpKNldWYm51TTRhdUtnTEtURlBTUmhnOFgxTlh1bFo3VHRqaHFxc1A3MkczZVVMTm5JTmlaeWlqc1B4ZVBjWXA2OVdtMzR0Yk9fdy0xeVBBaUJBdHFjdURERWh0dEFPTTI1ODBzdFJoakx3d1dEZmdOZVltZ1VrOWM2cDhv?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News AI / Tech",
+      "published_at": "2026-09-20T14:22:46Z"
+    },
+    {
+      "title": "《我們曾到此：明日》TGS 現場試玩縮小合作解謎製作團隊透露「對講機」新增近距通話更有隱藏功能",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNDI3SUxqMWlHN1c0RE1UdTBORGtwanBwc3lrVFZqVWN3OGN4OEFoWlhZZktuN3E3VmVGYjN5YXFlbUVMS1VrdzZQSU94MjJWNlBiSDRpbDBZYzNlaVkyaDRaZ3ZyZ29aMG1NVXBEMGhSMnpSd0tublBtbFE1RmN6M2xyczNGV1k2ZUVJVmZ4eWZJTTk0UkFBS3pB?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News AI / Tech",
+      "published_at": "2026-09-20T14:22:34Z"
+    },
+    {
+      "title": "氮含量異常高，天文學家證實星際彗星 3I/ATLAS 來自零下 243 度的恆星邊陲",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb2dsOEM3bmR3R0x4MUp1dlhXNzJ4Wi03Sm9LRC1ZQWRGVy1oTjdWSm5DYXQzN280Zks0WGhIWTBaRTBzSFpSSlZjTXZubXE5MTJmUGRyazBubFNzYzhGWDEyZGFpRDdIWDlTcGJBQXBuQ3p3QWw1S2tlcnUyWWtHME1HX1JmampEcFR2Q1h5QmVkNnFNMXN2UGpPcHNQUzc3OTU2U3l2bXQ?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News AI / Tech",
+      "published_at": "2026-09-20T13:18:18Z"
+    },
+    {
+      "title": "【TGS 26】《瘋狂計程車：極速環遊》製作人訪問期望在充滿壞消息的年代為玩家帶來歡笑《Crazy Taxi: World Tour》",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1tWEw3WVFLcllhSWd0N0dRTWJOUjk2TW51OTBsd3gxMS1jTlhCOUd6TkJUb1ZVejQwYlYtelphZXRVQWh6ZkVpY0h6eUtibWc4VWFWVVJXdUY?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News AI / Tech",
+      "published_at": "2026-09-20T10:28:50Z"
+    },
+    {
+      "title": "Twitch執行長Dan Clancy揭示社群哲學：打破語言高牆，VTuber將成為全球共通語言",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPd1Vua1daY0JscF81Tm5TUDEwZG90bjRES3ZQWjNDRUxsYzdlQnZtQWR0OVJ1ODUyMjdZWUJsSk5WYWRKWXJ2ekd0dmRJZWlqcHBaazA1OFJjMklNM0o2OHVjT2tCU1Z2NTRoYTdfa1JnZnJxbm9UN1QxRFNBMzdwMU5qLTVfZGVwV21yTU9FbnlsMVRBcnRDN3I3MUt0R3JGY2ZCbmFDVzl6TWFnZV9hck1VbDZKY3o4SHg0NWt6OHpyaDBQVWNJVXMydWNlaHR4SGVpVzRIZEl6aVppSS1XZFV6bw?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News AI / Tech",
+      "published_at": "2026-09-20T13:34:03Z"
+    },
+    {
+      "title": "離線體重記錄與趨勢追蹤 原價 US $0.99《Just Weigh》限時免費",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVE5talVNY1hmSHFJMzlpWjZ1X0NXbTB5dWI3V1ZtVGVZcmxmZWcwd1lkMnROUC1XQW9mQTVKdExwTnpnaEx4cHRtY0lWY1VDaktFMG5zZTVDcG0wZXNscU5lTURQLUtzUFBZaWZuWWptQUFfTURfQ2taNVc0MUZGMjZkd1phTGVrQzJnSXVGWjJSWms?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News AI / Tech",
+      "published_at": "2026-09-20T13:04:59Z"
     },
     {
       "title": "【TGS 26】《龍族教義2：黑暗再臨》開發者獨家專訪與「人機迷網」合作並非不可能？《Dragon's Dogma 2: Dark Arisen》",
@@ -154,16 +196,10 @@
       "published_at": "2026-09-20T05:12:13Z"
     },
     {
-      "title": "手機不想用iPhone、三星了！內行改買HONOR：水準高、每台免6千7",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9aOURQYTFJdzBfQ085WUtPMGhraVFla3lvLWQtcjZyXzZRRl8ycmNQWlRvaTJicC15c2V2RS1HWThDS2Z1UEpPOTlfS2rSAVJBVV95cUxQSzRTczloYmp4bnk5d25obm9DSDBDWklnaGVQZnpXaVJmVWhMV0ZDZzAxWmRUbHJTYnFFN1lpU0JrcXZyTHV2ZVFiNFBjb3l5X0FB?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "title": "迄今最年輕系外行星現蹤 年齡不到100萬年",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8tVXN6RndtazVkNUpIRDd5NXk4ZE9rYUx2aG9JeHl1QTVWQThwWVNvNFZtSUZlNklNYzFOTjJVWWhaV2d1ZHpqcU1xM2N6MjhEclBtaUxVcXNIcEc3UnBqRNIBZkFVX3lxTFBLQVBwOEIzdlFZNndVYl9vYmNLZ3lBYVpWS1NfWDZ4azRrcURWSkdWeFNOcG9ZTXJxLWpCTnBPLVVJano0RXlrSnFsMDRVQ1o5UnducDV3STI0dTd5RW95OFVaQ0g0Zw?oc=5&hl=en-US&gl=US&ceid=US:en",
       "source": "Google News AI / Tech",
-      "published_at": "2026-09-20T10:00:41Z"
-    },
-    {
-      "title": "換iPhone不用加購iCloud！免費雲端空間借21天 開啟路徑一次看",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB0OGF3Q1dmQ3NXQnduNnN0VGhmZmd6NEhOYVo2b05sSzBnb01TMTUyZy1RN2VmLWlKZGNVY28tbVBhd1BRQ0VJdXpJSzLSAVJBVV95cUxNTVNfc2RVTTBJcjJMTjFmNUdOYUlCcVc2dFk3akc2LS12T0xDNnZvMGJMa3BvbVRxaDVmU1dSRmNPQkRmS1BJQk9yOFQ0aHgydV9B?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News AI / Tech",
-      "published_at": "2026-09-20T07:53:38Z"
+      "published_at": "2026-09-20T11:02:00Z"
     },
     {
       "title": "【TGS 26】《洛克人：雙重超載》團隊獨家專訪談新頭目「閃耀女孩」設計概念《ROCKMAN: Dual Override》",
@@ -172,16 +208,28 @@
       "published_at": "2026-09-19T22:54:39Z"
     },
     {
-      "title": "Google Pixel 11 Pro手機開箱實測！120倍變焦、一鍵抓拍功能大推，更全面支援AirDrop傳照片超快",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9WMFN6djhCV3dhYjJVbEE1RkVDTFNTRGxiQzhTQzBWOEJ5Z1JKSVk1SVFuQWFTbURpVGdZMzFJUTVCQ3ZheXFXSlZvU09SSWljc1pNOEFfU1VPcE5oZmhPWg?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "title": "手機不想用iPhone、三星了！內行改買HONOR：水準高、每台免6千7",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9aOURQYTFJdzBfQ085WUtPMGhraVFla3lvLWQtcjZyXzZRRl8ycmNQWlRvaTJicC15c2V2RS1HWThDS2Z1UEpPOTlfS2rSAVJBVV95cUxQSzRTczloYmp4bnk5d25obm9DSDBDWklnaGVQZnpXaVJmVWhMV0ZDZzAxWmRUbHJTYnFFN1lpU0JrcXZyTHV2ZVFiNFBjb3l5X0FB?oc=5&hl=en-US&gl=US&ceid=US:en",
       "source": "Google News AI / Tech",
-      "published_at": "2026-09-19T16:47:26Z"
+      "published_at": "2026-09-20T10:00:41Z"
     },
     {
-      "title": "蘋果iPhone沒拿第一！全球最熱賣手機系列冠軍是它",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE80aklWYTFEZmNfVGdfLTIxcTFSSHRxaDF2Y3pfbU1vcnVrbnFYVHk3NGxqSV8ybi1YdmVWODIybGppbWtZVjFF0gFMQVVfeXFMTjlDaTd4Q0V6dEFUaXhOc3BpUElkbS1mV0FGMmNhVExNeVBhSUh3VE05MDRYWnhfamtfOC1UUlBidGNRQlUzaHBiMWJjdQ?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "title": "《GTA6》PC 版本何時才出？Take-Two 執行長：PC 確實越來越重要",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUmQ5VWZacmdKd0xrZE95TS1tN0RReVprcWZtNFQyMGxHX19DbGtEMlpYcTZKTlF1Y2czcTFBSktQemhjN0o1SXA0VWJiMTM2UmpsRTZCUURkVXhDckRGbklucF8zX1FZUFJXWnRPdTE1dGZjY3I1ZDRZU2pyQzItUWtZLS1jX29vRHBSTTZ0MXlRa0dVQTczREZrYi1NNDBnRWFrb2o4ZlJiSWFlVkJSSWdFYTdTWGFJVU5JV3JvVFRYQ2lfNDJNci1wTkRDV1du?oc=5&hl=en-US&gl=US&ceid=US:en",
       "source": "Google News AI / Tech",
-      "published_at": "2026-09-20T07:00:00Z"
+      "published_at": "2026-09-20T15:00:00Z"
+    },
+    {
+      "title": "換iPhone不用加購iCloud！免費雲端空間借21天 開啟路徑一次看",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB0OGF3Q1dmQ3NXQnduNnN0VGhmZmd6NEhOYVo2b05sSzBnb01TMTUyZy1RN2VmLWlKZGNVY28tbVBhd1BRQ0VJdXpJSzLSAVJBVV95cUxNTVNfc2RVTTBJcjJMTjFmNUdOYUlCcVc2dFk3akc2LS12T0xDNnZvMGJMa3BvbVRxaDVmU1dSRmNPQkRmS1BJQk9yOFQ0aHgydV9B?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News AI / Tech",
+      "published_at": "2026-09-20T07:53:38Z"
+    },
+    {
+      "title": "【TGS 26】《魔物獵人 荒野》Switch 2 版實機試玩影片曝光 隨時隨地享受流暢的狩獵樂趣",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPd0o5STgwakJxSG1RdVFLcFlhNndvZmw1Skg0UnFMb202aFFlak9HYTdJZE1qVlRvdTJlR3ZhT0VybHc2MG1DVTZOQW5nNmFCTnpLUl9sSXR5NVBjVUhjT3dITDZOSno5VS1USkxkOFNnV3JUTEZjcHpuNzFkdWZFN2lrV1I?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News AI / Tech",
+      "published_at": "2026-09-19T03:31:42Z"
     },
     {
       "title": "【TGS 2026】Level-5《DECAPOLICE》首度實機試玩 主角化身布偶展開命案搜查",
@@ -190,72 +238,24 @@
       "published_at": "2026-09-20T04:39:00Z"
     },
     {
-      "title": "《BELTFED》融合 Roguelike 與工廠建設 數十萬敵人同場來襲",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRzJoME1Yb2lZRzVSNDY2LUl1aXFQRDk5NU9nVnF4RWYzd3V6RlhVc1JCZDVCaURodkJkZDA2eURGeE1FNzJvUVE3TkhEbTRTVTdGeHdtZGtseUJud2l1UWxGLU5jR194WWQwZzQ0SlQ1LWFwajdCMWlFOFE5MzU5aWp4S2dlZw?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "title": "《聖鬥士星矢EX》# 684 80抽！白羊座·史昂| 5星白羊座·史昂VS 7星冥衣·史昂傷害測試| 銀河爭霸新賽區人太多進不了黃金組? | 巔峰競猜+遠古戰場收尾| 80抽！標準招募",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40OVVPY2Zmb1RHVHUyMGtvLUVCTnZ4OUZvUGYtX3pvWGtTeFo2U0xHTXZjb0dXelhhSHhKdmNsbFBSM3lHcVFvSWstazdaY3FVWmZNUWJJTjFobklzVXZrbUFsV1dqQXM?oc=5&hl=en-US&gl=US&ceid=US:en",
       "source": "Google News AI / Tech",
-      "published_at": "2026-09-20T09:54:49Z"
-    },
-    {
-      "title": "迄今最年輕系外行星現蹤 年齡不到100萬年",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8tVXN6RndtazVkNUpIRDd5NXk4ZE9rYUx2aG9JeHl1QTVWQThwWVNvNFZtSUZlNklNYzFOTjJVWWhaV2d1ZHpqcU1xM2N6MjhEclBtaUxVcXNIcEc3UnBqRNIBZkFVX3lxTFBLQVBwOEIzdlFZNndVYl9vYmNLZ3lBYVpWS1NfWDZ4azRrcURWSkdWeFNOcG9ZTXJxLWpCTnBPLVVJano0RXlrSnFsMDRVQ1o5UnducDV3STI0dTd5RW95OFVaQ0g0Zw?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News AI / Tech",
-      "published_at": "2026-09-20T11:02:00Z"
-    },
-    {
-      "title": "【TGS 2026】《Putty World 35th Anniversary》整合三部經典 2027 年推出 Switch 2 版",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAyaHp0bHJablFJWElMeUVhUnFQVFdWUFFWLUdDRGF4QXpTZUIzLUktRFluMGhncXl4WUdQd0dyMHc0UkVCOG1zOXViLVJWaVA5MnNnS2pKV2hqTEdqREV1VEM1NGVvUEZsa0haemtBMER4S1hialU1cmRXek0?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News AI / Tech",
-      "published_at": "2026-09-20T01:39:00Z"
-    },
-    {
-      "title": "《無盡之旅》9月16日正式上線像素放置RPG 開啟勇者冒險| 禮包碼、兌換碼、虛寶碼| 魔王摧毀國度、擄走公主化身最後勇者招募不同職業夥伴打造專屬武器、收集稀有聖物與紋章與魔王決戰",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1sRlU3RWxyVUUyUm1HZUhiaV9NampQWk5PS3lDMFNKNjZmOTBPYTRpdG1mLTlDakhhUFJMbFg4VFlaVWpTMDNRWTZOQlhBa01QelZNNXRwSTA2aUFoQnEwbmlJQWowYTA?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News AI / Tech",
-      "published_at": "2026-09-20T01:26:06Z"
-    },
-    {
-      "title": "終於回來了！Windows 11 測試「單指邊緣捲動」新手勢，不用兩根手指也能輕鬆翻頁！",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQekl6SnFfZDVwOHJKRFF0U3FlSmh6bjZoWlJyeXFOTGs2QzJHOXp0eV9XbWNna2dwTG1QZGJ5bDVhNUNQODBZNjAwb3c4bUJwT2M0YkloOUtrSVA3MmUtQVJqSVdDNFhBWG9YaGtrT1Zld25pNkxBQ3d1Qmo2Ym5IVENyS09ZaWIxeU9nT0lUaw?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News AI / Tech",
-      "published_at": "2026-09-20T01:30:00Z"
-    },
-    {
-      "title": "《秘境探險4》《最後生還者》總監批當代3A遊戲很無聊 點名《戰神：勞菲》後道歉",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQlExUlI1M2FvLUJjU2U4XzhZQ1hoRnFNbWZOVGs5Yk5tdmZfdTcxcVQ2SmxZOXlFOXB0U0dBMnp3QkJrSndLZW05UHY1dERUd2MyenN5eUFDcU9rcE9lOHE0X1F0akxzU1FyTmxoanUwbVdBSDdQY0VwQWVSU2xIdm1ZWlphU0ZCd2xfeWhjcGhRT2xDMUJzOHRNLUpmSHlPUTdrRV9PMjA4eHQxd2RiX1dtWV9MWFVvNk4zckEyNUZ6R1FJVzRR?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News AI / Tech",
-      "published_at": "2026-09-19T19:19:28Z"
-    },
-    {
-      "title": "Steam限時免費！《Deadshot》、《Space Menace》快領 免費入庫",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5qRV9EdjJPa3Y1NER6czNORWx0ckNIRHFKTlZVNVJSNFF1Q3JKaVFiWkFFbWhvd1lvNXdOZXlZQ2FZdDc2cHFhcEdfZ0jSAVJBVV95cUxQbGp0OXE1cFVNOWhhTjRBbEw5bThjQjV3Zm1QcnhwRkJUUndqRkNGdEN0Ym12VVlGWkxMOVZRQmx3eE1wS3lWYUFiZmgwaWRpX1VB?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News AI / Tech",
-      "published_at": "2026-09-19T22:18:00Z"
-    },
-    {
-      "title": "【TGS 26】《魔物獵人荒野》Switch 2 版實機試玩影片曝光隨時隨地享受流暢的狩獵樂趣《Monster Hunter Wilds》",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE91SjhMakdkdjFZa3g4MDNlNWphU0ZUaldudnpCSjNjZHFOYWR6WFRBX3Z6bEVaZmViN3F5UmxURWY2Z09xX282Qk1kNGZhSTVPTlJveWdFcjE?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News AI / Tech",
-      "published_at": "2026-09-19T03:31:42Z"
-    },
-    {
-      "title": "Take-Two：《GTA VI》11月登場 《Online》續營收看82億",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaFBObEhsNENBMDBJRGNOd0xjbmdiWEE3Xy11NDNZeFlTZW11UWlFZFIxazNjdkhPM1VVc18xZzY0OGlvM09jTzZ1QmZOSUJRSDZyVWxzbGNCNXk3NHE3cG8zNUFtdk9MUnpDYzFFUEFTUWZLdzRKNG94QkNOVExkdzh6NnNKRzJCQUhXbUJtSnVxbTBRSi1mTkhn?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News AI / Tech",
-      "published_at": "2026-09-19T04:29:38Z"
+      "published_at": "2026-09-20T04:22:12Z"
     }
   ],
   "usa": [
-    {
-      "title": "川普宣布達成格陵蘭協議！美「永久」掌控安全 丹麥總理回應了",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1rTnl1VzJrSGVEcVpnR0ZUXzQ5NnhHRTgyazN1VnY2cnY2TS1DT1BXMWVwdHRKanlQRDdfaldUTU9IeUlzUk1CUUpnVmlwc1Bf0gFWQVVfeXFMUHhxZHJDakREMWxiMFQxdEcyal9ERUVWbzIzaVplcTlNTFpLZXExWUpIaDB1R3Y3WmRuOGRzNmVJaTI3TWo0a0Q4bFQ3dWUwa055TFJDZmc?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News USA",
-      "published_at": "2026-09-18T23:23:58Z"
-    },
     {
       "title": "川普稱與丹麥達成協議美國將取得格陵蘭安全控制權| 國際",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1NSXh3aHZSUUo5WkdDR3F4SDdiOWliQ2I0eFlVWmFXRDdwMmNQd2NIemh6LUNYZTZneUMyR1VHYWJYOVFNSTY1TVJFcDgyY3VabVp4d0RwY3V6cmt0M3l3?oc=5&hl=en-US&gl=US&ceid=US:en",
       "source": "Google News USA",
       "published_at": "2026-09-18T22:32:00Z"
+    },
+    {
+      "title": "川普宣布達成格陵蘭協議！美「永久」掌控安全 丹麥總理回應了",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1rTnl1VzJrSGVEcVpnR0ZUXzQ5NnhHRTgyazN1VnY2cnY2TS1DT1BXMWVwdHRKanlQRDdfaldUTU9IeUlzUk1CUUpnVmlwc1Bf0gFWQVVfeXFMUHhxZHJDakREMWxiMFQxdEcyal9ERUVWbzIzaVplcTlNTFpLZXExWUpIaDB1R3Y3WmRuOGRzNmVJaTI3TWo0a0Q4bFQ3dWUwa055TFJDZmc?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News USA",
+      "published_at": "2026-09-18T23:23:58Z"
     },
     {
       "title": "與美國達成協議 格陵蘭與丹麥政府稱不致損害主權",
@@ -264,16 +264,22 @@
       "published_at": "2026-09-19T21:48:25Z"
     },
     {
-      "title": "日經：全球主權基金避開中國美國靠AI吸大量投資| 國際",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1KaWU2blZKdXktQXBQOXdxV1pMbXh1SnJaUDVQdGdTQUxKRm1Pd28yZnNWMl9qMXAtbmhIZUN2SW9zYktCMHpENWc3bjd5dkNlOS1TVmktaWNXc2h6dnBF?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "title": "2021年海地總統遇刺案 18嫌遣送美國受審",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdlEwUmNURXhqUU1Ia210djNQN2pvbjdMSG85M1Y2R21CTjNuMjFoN1ZyWnByZk9ZMERwNk9NUFlIR183N3U2d05BNk9hcDdTd3J3aTFVLWl5cjh6QXNiZkNrS0tWNlNfcVlyTElXQ2R6TGxLSHU4YWVWazg2MXE0ddIBX0FVX3lxTE0zUFlIY3NvVTRvck9haFlkcm5TaVpLc0tjS0N0RkFJSmdpdXN3bnQ3LWpmVTI3RHAtbUJNSjByUjBIcXpGdXFxR2daMWZKSXpFWHFHUElVWF9fejBUM1Mw?oc=5&hl=en-US&gl=US&ceid=US:en",
       "source": "Google News USA",
-      "published_at": "2026-09-20T11:37:00Z"
+      "published_at": "2026-09-20T18:54:33Z"
     },
     {
-      "title": "美國施壓！沙國退出支付平台mBridge 中國「去美元化」布局受挫",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBrNkkwQmI0MnppZ21nSDB3MjFXMWV6dGZtS1h1YnZOZ2w5LVNIR1FoOHFfRS1rMm1LSTIxT1RmMUhOa2NoTmZXYW9TeHl6VmJJbVppMWN5Vk1EVVlyMXhR0gFkQVVfeXFMT1FCM0N6Qmw5ZzFXU1F4WFNqR211VEI3WWRqREFORDJTWFI2dld0WUxwdU5CbzNnZnpITnE5Y3JJRE5jR0tnOXVQQ21GRzFsQWZDNEVORjhWZFVkZXRBakZ0ektKaQ?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "title": "美國步步進逼 台灣要借力使力",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1paWtBSVJuU1pJOUdaRy1EZnhveW1Vc1lsYXJNMzJxdnU1QTFtM2JjTzlrbTR6c1YwdEN6ZFNSZWRNOGkxSzl3U3BGcS1PZUhsOWFmb3RvNFVEQdIBX0FVX3lxTFBYRGxhWnFjZjV4Yzl4YU9XOVZHbkdfX0Y0aEZ0QWd5Q29RZGxXVmkxWmctWmU2MERPWGR6cWRtNjhYZG5FUThVVEw1UDZmNnFKUHB1Ynl2c19neGZrdzVr?oc=5&hl=en-US&gl=US&ceid=US:en",
       "source": "Google News USA",
-      "published_at": "2026-09-20T12:56:51Z"
+      "published_at": "2026-09-20T18:36:56Z"
+    },
+    {
+      "title": "超級油輪短缺衝擊貿易美國到亞洲運價提高兩倍| 全球財經| 全球",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1sRkNLYVRvUlE1ZkEwc2gxcl9VRVl4dF90MTU1TXNBNGg1d1pRTElEQUdJSUtud2xwdjl2VG1JdGZnTWQ5M3I4aGNnRWNMSy1x?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News USA",
+      "published_at": "2026-09-20T17:46:05Z"
     },
     {
       "title": "聯合國專家：有理由相信美國在伊朗襲擊行動中犯下戰爭罪",
@@ -282,31 +288,61 @@
       "published_at": "2026-09-20T03:13:44Z"
     },
     {
-      "title": "伊朗代理人猛轟沙國！土耳其表態出手相助 美國急發9國安全警示",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5mY1o2Tmk3ZUNSNUVDdXdXVzdtWEx2T2ZmZ1gxOXNSM1RmRnFVNTNXLVpzcTRNMm56dDJiMmNmVWtiTEFvdmxnc1lHR1pubWh30gFWQVVfeXFMUGF0b25rUDRUVkMwQ0ZGQVJXSGZ5U0RxMy10Y2N2Mk1GT21mVzdab095SkY1NEZvak9qemtza2wtTWZtNXJQOER0ckl4TFBmZHZjY3ZCT0E?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "title": "防彈少年團為美國大型音樂慶典登臺獻藝",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9tR3RZamQyd0IzVGlpWnVWdVhJSi1Zc0RyUVBsOGVtSVlWNTZqbUUxQjEzbWxUTnVsZ1JvMnlUckRzczh3S1lDNDVFdlF1Y1N3TEtkckR5MXBHSWdwcTRuOXpiTWRmVzJ5TUVGUTZOcGpMX0dCSmZHQg?oc=5&hl=en-US&gl=US&ceid=US:en",
       "source": "Google News USA",
-      "published_at": "2026-09-20T01:11:14Z"
-    },
-    {
-      "title": "美國汽油每加侖破4.4美元 伊朗戰事推升油價逼近全年新高",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYW1HY2xBVGoxb0hjWlRvRy1GMGNmTHE5bmZmNk5ablNVMV9KV2dMVjl6VWFZRG9NZWJJUlpkSkZZem4xai1zQ2Z0d1ZSREtsUlctQy1Uek10Y240Z3NnMmNLTC10elNTTEU3Qnl3RnVZUFUwcFNFbjM5MlpGLWZnWQ?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News USA",
-      "published_at": "2026-09-19T00:38:19Z"
-    },
-    {
-      "title": "上海至美國東海岸貨櫃船運價升至4年來高點",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcVYyVi11ZDRTclpJUEV5VXpURVlUVlZ0aGVvN2t3eHN1Y2JXcWFFTlFMcFNTSzdqZlpYYjFRSWpZMkE1Mlhmb2Q5V1VERFpqZjNTWEJBVW1hdkE5N3FNNEtsOWtoM3k2UTJDM3JaVlR2ZkJTLTRJYzZfTmJtX21WcHQ4d3V3OWk2RkE1cQ?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News USA",
-      "published_at": "2026-09-19T21:00:29Z"
+      "published_at": "2026-09-20T02:56:50Z"
     },
     {
       "title": "美國政府動手了！正面槓上中共、俄國 竟奪下1大島嶼「獨佔駐軍權」",
       "url": "https://news.google.com/rss/articles/CBMikgNBVV95cUxPZ3BaNlkxRnoyb0hXTmJyZXpqMVgwSzc5VzlYUk90Y09QVEVJWXR5X3ZmUTMyVm15d01ST2xGMUVRYnZNa2tWSk5RdmQtRGRveXlENXhXWDk3RWdDZUpjWmczeWl3NVkzdTZxOHlwdElabXhLbjM4UlpJZWZzZnpFXzVMUEQtV1dSRG5PN0tFOTJleXZrSXlEdWpkQTRaM1ZEcU9vOEJMRExEdHBZUWRHNVhtMXVMQnNYcUZMUHdsMFpLLXAzckNRdjlTUlNtTEZPVkd4Z0RWMzNQdXNsbmwwUmIzbThmX0sxUXA2ZWdfM0ZvUHVFNXRCaXFCemFNdHRDZGdpQ0VPUlE5VlZoZ1ZOakp1V2xMc2NlS3g5WTJLSGVzelZNLTMwR1FGajJBT2lwS0hYWWMzMl8xNHBHSGh2WmFaQnBfeVphTUJCYWlVS3BqRFVhWmJDUC1rUVFQS3BjRjdzQzZ6dmo5MTVadThmZDM5U3JGU3puR1kwaHVzZzBXMC1ydU9vTHQ4NEJCd1hUV0E?oc=5&hl=en-US&gl=US&ceid=US:en",
       "source": "Google News USA",
       "published_at": "2026-09-19T05:51:49Z"
+    },
+    {
+      "title": "日經：全球主權基金避開中國美國靠AI吸大量投資| 國際",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1KaWU2blZKdXktQXBQOXdxV1pMbXh1SnJaUDVQdGdTQUxKRm1Pd28yZnNWMl9qMXAtbmhIZUN2SW9zYktCMHpENWc3bjd5dkNlOS1TVmktaWNXc2h6dnBF?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News USA",
+      "published_at": "2026-09-20T11:37:00Z"
     }
   ],
   "taiwan": [
+    {
+      "title": "川習會9/24登場！台灣軍售、關稅、AI都上桌 7大焦點一次看懂",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5JOWZIZS05aHNBLXVocUVjTUlOYndiZXJ5X2ZFaXl0ZTVfYUNOWFViTFBPVjI1Ykh1VTRMRUNfVkNUeXg1QVZtRElFNUxCV1JPWVJoRjkxaGVSWVBEODFfYTFoTzQyUdIBa0FVX3lxTE04WmpRWXJfemZMQkN3V25mQjFMSm13RGhrNzBxaTJZamUxa1pRb1BTWmtoYnNkcm1QZ1RiaXR3S2JOSFBBN0syeFBtRVZpdVFRbWlMTzJHY0JVZFkxc1R0Sm1ZeG4xTzFiWTM4?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News Taiwan",
+      "published_at": "2026-09-20T07:28:23Z"
+    },
+    {
+      "title": "勞動部長洪申翰抵南京快閃離開機場 21日出席南京APEC部長會議",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBCazBvendNTFA5ck5XRWRxZW5RSDhXX0w4RWM1cWJnanBjU1VHU2FxWG9hNzc4VXVlWUFDd0NTMFI2cktEdE5DQVZvY0QzNEM40gFWQVVfeXFMT1lnR0VhMEJzRElHc0laaVZORjZqQmRJT3N0UDdVcUk3UWRmM3BjQUJJbldYeEhXdS0zMEdObWdNSXRENndTMlFRM2JxRkdmTmtQeU9pNmc?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News Taiwan",
+      "published_at": "2026-09-20T13:22:21Z"
+    },
+    {
+      "title": "鬍鬚張挺蔣萬安遭青鳥抵制 他現場用餐曝「真實情況」酸：沒看出成效 | 張庭維 | 新聞",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA3bXJUT1NVdk1oM2lrRWdvMUxaRlhRRGFEMDBWLXg2Um0zRFc3bkpqaTk5VGpMYnN4U1J0UHM5UXBpQzhiOVdoQzctMF9Idw?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News Taiwan",
+      "published_at": "2026-09-20T08:24:26Z"
+    },
+    {
+      "title": "網傳蔣萬安退通告、要求先給訪綱？他揭1大破綻：太小看王偉忠了",
+      "url": "https://news.google.com/rss/articles/CBMikANBVV95cUxOSnZDRHo5YldqOU5XZWhtYngxSkJ2SktVQ1RzNnRHdmtqdWplVnBMUDdfbkcyd3RDZDVncDF3WWFacUlZZkxOdVJZTGR5TzdVVXI0UWlraW1FM01BZmZNQ0hVeFJUUFNBMFAya3FRQWlVR0hnYVhaWlk0bkN4aS1LR1hPcFBuYV9WUUZRQ005cnRhTzRCUHAya1hvVVdoU04zU25CU1NGLUkwVGQwb1VEdjY1T3dPQmV5QjNZNkZtYm1sWHpCWFZLa3hTeEFoUmF5cnJXc25IMFkzUkpnVGlZbGUxMkZncTRZMGJDVnhyX0FKQkpKQlhjNUtocGVXbGpRVkktajFZQzdCTXVOX29oQ21xZG5RZno3b2phTkMzZ2pZc3MwcHpRcTJkOV9DcWx2UUItYnQ5c0Q2cUFZRkZUZjdsUzV5SHI1WmJWSGZCSDFsNmNQY2U3Q3N6RURMUHNBR0VHRVJETkszUU1kOWUyemJGaEJoVjlhS2hHbzdtcDZscXJhWUlVRTB3a19wTEdB?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News Taiwan",
+      "published_at": "2026-09-20T04:00:55Z"
+    },
+    {
+      "title": "蔣萬安讚高雄進步非常快 沈伯洋：陳其邁「6年當8年用」有目共睹",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5PWUZ0S3NFbkZhektLLWk1cFd6a2QwU0JaSkp0aHNkLXJsM2tmQ2JrVnpXckRNbVVMNXNyN2FaeFBWUkRsNHUteNIBTEFVX3lxTE5YeVdNX252bFZ6enJqU0lURkJIc0JmWjhDcHZLbTFiMWV3RExwbFIydkNkSEFQendWOUgydDBxN3JEVVpFV2N2M1VhZkE?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News Taiwan",
+      "published_at": "2026-09-20T03:53:00Z"
+    },
+    {
+      "title": "阿扁人氣高！台北補簽會排隊人潮曝 陳致中親曝1事：對大家很抱歉",
+      "url": "https://news.google.com/rss/articles/CBMinANBVV95cUxPRTlVT01wZmgzNlRkM3h0UVVEY1Zkdmp0LWRqbk9nQkFOaXN2d05USHUtbm84NDlRSWlGNDhhcm5CZkxaejNSenpRWExVN0puaW1kLUl2VzIwV0VWV1JwVUdZSUtmYk1FNGx6Z09wUnNaR1U5Q2RHU21LeHdubHRxWmNMc0lYd1U4emtiN3BPLWM4UlB6TWZMbmQ1aFJCNENBUVBuUmgyWHR4OExlNHFMdnptZXNRZEVJRHVhU0hFTlVCMGVTcnZQQ3dTQ0JaWXViUm1EbUF4QVBVc1M5QUlIWjd6QVprM3prNWQ0b2xzZWxXWjk0V1Z4VHViVTRqOHZHY0c5RWE1QTVFS0lVaFpzMndRRzlDekw4bkpFdW9QUkFIQ1VRZzdPUFQyc0prdVdaeHFGdDdsWXF0MUNQMW02WlFtLUpILTVfcGhqbjVYay1IMnZ6UWFNNDZweTdYb1V2akw4alFZb0xXamtUVU5RTEtUS3dkTF9pdzItT2JYT3g0UXBsdkZCeG1WUVZCUkx4VUxyUTctdEd4ZnNJ?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News Taiwan",
+      "published_at": "2026-09-20T06:58:15Z"
+    },
     {
       "title": "謝典霖父子涉貪賄收押重創家族！謝衣鳯打破沉默首度受訪",
       "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxPNXVEZVVoWjhfaVRpMk5BOUxuU3NIYTdQVklqUEpmTUtlQkpJbk83YmdKd0NYLWJQd2FaeGw5OU5JQWl6MjdOUmJVZ1hRUV9wUnh5eHBhdFJicGp5LXV2Z0VlblV4WmZfRm8waFdUQkJiM1VIRmVoeGhsX2FuM3lrVy0wdDhZbFFoRUFyUVpmWU94cWkzX1VsN2ZwSjJ3WXFKVWxNc2J4MFBhTGM2R2RCRS1MOW13eXNKMjBPYm9UNTV5WUNIQmRreklSbnVqWm4xTncwSmNVODRVQ1EtTTJiaXFRM0pkM1dLc0VwcVJlNEYxZzcydEU0MTBudUx4SzlDc0xYb1o3akRmdFJxYUhEQkFBRU42VkZJcG94bXlRWTkwNnhCN0VYMHRqOUVtd2dCNlBsNmR1enRHLS0tNVdiRDNOVkkweTFtMGhHSXpSY0RydV9mbzh1VVVXM0ZkUVhfdk5BZUktbnRzaUtmSWxLeDR4SDJMbm9sMTd2VmhOdlE?oc=5&hl=en-US&gl=US&ceid=US:en",
@@ -314,58 +350,22 @@
       "published_at": "2026-09-20T09:27:00Z"
     },
     {
-      "title": "對台軍售成籌碼？川習會倒數 美議員搶先出手：拒絕中國干預",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1vekZybk9tQXF5aWg1cGVQUzhNbnhwSGJhYkpWMXdGc21Ga0JqQnQ3YVFILWlvRy1meFU2eVZWMnFaS1BDZmd0WGYzdGptLTJ1MW9aektPTDZ2bGw1X2xMUTBnc0lpd9IBa0FVX3lxTE5JVkRucTFyYlUySDRqRG5zR3BtMlp2TXVxcnViYlFmeWFRX3pSVkVCUU55SV9UNjl6OWxlQkVMWVRhV2h0c3ZxUEpKd2J3ZHJ1TDZaLVdRQUNpZ3NheEo1alVmdHhZa3JSX1lj?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News Taiwan",
-      "published_at": "2026-09-20T06:18:06Z"
-    },
-    {
-      "title": "第3代挺蔣萬安遭抵制 鬍鬚張發聲明：私人行程非代表公司立場",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9KZnBQZmxnY2prY0lQcFJ0SGpHUEY2VUZBSFRrU0RocGhJUlpqcTNVZFlGd2ZwbWQ5RnM3Zi1yN0xqTXpfSlBVeVFkSGxkMlNsck5n0gFYQVVfeXFMT0s3bTFIRFg0SEtxc2dKeU9zdkZQNjRocWxyV04xQXJGYTVhRGFBUHpNekFXa0VkdEJWQ2J1dnRvamNiRHdEMVRFaUlaV1pCenFNUlVmRjQ0cg?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News Taiwan",
-      "published_at": "2026-09-20T11:39:41Z"
-    },
-    {
-      "title": "蔣萬安舊影片又被挖！只講出1句英文 認了：在美國被裁員領失業救濟金",
-      "url": "https://news.google.com/rss/articles/CBMitANBVV95cUxOT3JpVUtuY2hWalEtTENreGRrc3FnMkhTVlNlNDI0WHNjN0l6R3k5SEI3SzZPYWdDVUwwTWlpanRkSDM3b0MtaVg1cGRmZzVLT21zSlJnZF9jYUZ1UHhKNTBQQ0J6OEQzb0lVbmR6Y1diSFpKQjNraE5RXzBvdGFhMnNkeWVrV3dXTlhTcVpwUVFMUlZmb1ZvTF9QMVFHTS0zUHVmNV9XckpVTWtYOHZhNDV4bVhLbEl4cmdaTGlmdWZyZWQ1NzZJczF4TldfS2duNW1ZZGpyZEl3Z2JtaGN0RjJhbmVPaFNleDVxTVJ2VnlGbDBkWFExTHRVN2s5RGp6Y0Z6WXF3RVhMa2Nsb3JwZkFMLXdNb3NObVF1aGZLdUtpazZ0XzZwY0lBd09uMHRDTmRqamxPd0ZqQzBSZjN6ZnFjSGVMSHAxV1djSTZQUUw2dzV1OTZBLVEwOFVNSF9EVGx1cTNLSFBoWUMtbUpRTDBlZXA5STVoU3BsNzJXUWs1TkhNTzVhSGItejAwSndmeUJXTVc1RE5jZlBuT1Z6TmQ0RFZxTU14S0c3bEZhaUtuYVFr?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News Taiwan",
-      "published_at": "2026-09-20T10:59:00Z"
-    },
-    {
-      "title": "柯志恩找錯人？蔣萬安「一上台就稱讚陳其邁」 他嘆：比韓國瑜還悲劇",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5pY1JFMmNkSXMySDBQM1RnU2ZwanVnenFuMFdEU3BMbVQ3RV9XMXdlcS1UN0gzUTl2S1dBLU5oUmFscDVTWlNCbdIBTEFVX3lxTE5zaGt0WnRqakdkcWtuMnVmZzVMbWJXcTd6R3EyQ1cyamJvNkZlVnM0TGdFYTdtRlVVRzJxY1dmTlhCMGxOOTRCMjVGTjU?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News Taiwan",
-      "published_at": "2026-09-19T22:45:00Z"
-    },
-    {
-      "title": "見證洋流被嚇到 國光女神讚沈伯洋問A答A",
-      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQckNEbG5ieVJIS2NkeEFiZlJMYzZPTlcxcnUycEhLbWJ4dEs0X29nT0Q1b2JKSC14NWh6TU9aN0k0Qk1nOFNkX0xhNEp6Vk1CaU9fRjlHS09ZbEpocXA5S1R4aEZXUkhsNjFCRm1mYVppSUxGYS1jXzc1RDhxTm51aEw5bDJnNWhnVU9nRjdQYkY3bUlOSUhaSkJzXzk3aUxkV0RzMURjYVdwenIwV0R6R0ZHZjNwZDRCaU5hRkM1TUg0WVJVVFBRS2l6ODJpU1hLMHVvWkdWRDZ6LS1OV05NZlhoYndMc1pENG8wSjc2SVBrUHZNRFhxc08zT1ROVmZYam1jZHRMWWs0QjBHRzVlblhkb1llUnFSY2NqYmxLM09ia0U?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News Taiwan",
-      "published_at": "2026-09-20T10:11:16Z"
-    },
-    {
-      "title": "阿扁人氣高！台北補簽會排隊人潮曝 陳致中親曝1事：對大家很抱歉",
-      "url": "https://news.google.com/rss/articles/CBMinANBVV95cUxPRTlVT01wZmgzNlRkM3h0UVVEY1Zkdmp0LWRqbk9nQkFOaXN2d05USHUtbm84NDlRSWlGNDhhcm5CZkxaejNSenpRWExVN0puaW1kLUl2VzIwV0VWV1JwVUdZSUtmYk1FNGx6Z09wUnNaR1U5Q2RHU21LeHdubHRxWmNMc0lYd1U4emtiN3BPLWM4UlB6TWZMbmQ1aFJCNENBUVBuUmgyWHR4OExlNHFMdnptZXNRZEVJRHVhU0hFTlVCMGVTcnZQQ3dTQ0JaWXViUm1EbUF4QVBVc1M5QUlIWjd6QVprM3prNWQ0b2xzZWxXWjk0V1Z4VHViVTRqOHZHY0c5RWE1QTVFS0lVaFpzMndRRzlDekw4bkpFdW9QUkFIQ1VRZzdPUFQyc0prdVdaeHFGdDdsWXF0MUNQMW02WlFtLUpILTVfcGhqbjVYay1IMnZ6UWFNNDZweTdYb1V2akw4alFZb0xXamtUVU5RTEtUS3dkTF9pdzItT2JYT3g0UXBsdkZCeG1WUVZCUkx4VUxyUTctdEd4ZnNJ?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News Taiwan",
-      "published_at": "2026-09-20T05:47:58Z"
-    },
-    {
-      "title": "颱風亂中秋？熱帶系統再活躍 粉專：往西移動機率明顯提高",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE90SWctVi02a0NKbU4zZ1R2RXY3N040OXRibmMyaGhrejZURmhmTHAwejVycmdSOFNyMmN4dDl1SzI4SjVXcjZSMFlXSm1YNTF5M2M2TGlWckZlTm5ibW5WcWJpSC3SAWpBVV95cUxNUW9lU2xVU3Mwa3V0VEtoMXI1cjBUVmpWZ3lIMnhIYmtfSFhMX3dMTVJfTnlqUXZOSWxwT21PQlNubWxKMHVnQUY1UUZKeDBlNk90Q0d6MXVlZkdiNDNtYWZfNERUckw1WFN3?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News Taiwan",
-      "published_at": "2026-09-20T06:32:21Z"
-    },
-    {
-      "title": "拉奇籲台仿效美國獨立戰爭靠作弊、不對稱作戰致勝| 政治",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBTemp1X1VyaXR5TWJNZHFMeXNuRy11TktDTkg3cDJDRkJiSzJoUFV1UkxBVXl6bFFFanBKRF8zZkJmTFN6VUdYNXRnWUpBRjd0Vi1zdVVjbGo2WEVQamw0?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News Taiwan",
-      "published_at": "2026-09-19T06:37:00Z"
-    },
-    {
       "title": "又有熱帶擾動發展！連假後期恐影響台灣 中秋賞月機率曝光",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBJZEZtSmZtMFYzNkRkVmVoTXc2bnpoeEhXbjhQR3htZFFxUEtUUGNFVlVyQTlIbm5Ia3lpT1FlZW9jQld4VWh2ekVsUlQtcEFl0gFWQVVfeXFMT3VYdUd1OTZlSFp2TzVyQnFnQ1RKRHlTaEpGMk92Y3E5c29EN0g4aXlFQU1BeGFNNFZTZmpFTWRhTUlTV0pHZl9VZ3ZRM3FRdTRzeEM4WFE?oc=5&hl=en-US&gl=US&ceid=US:en",
       "source": "Google News Taiwan",
       "published_at": "2026-09-20T09:26:46Z"
+    },
+    {
+      "title": "脫口中南部食物太甜引熱議 沈伯洋出席台南同鄉會當面致歉引爆笑聲",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBqUTRHMmpFX1lZY3FfRFRkVGRmejVlUlA5bkZKMFUyRldLUlJmWE1rTVFSX2NwOG9aMXFrNHluRjdiNy1QX2h2WNIBTEFVX3lxTE9xX1I4QzVLNHB2aHlrSXRMYWpUYjNXaGxLZ05sWlRLTmljZmJIbGRpVF96bjlOTHU1OWl5cWJXLW5JLW00bVNiOVFlSnM?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News Taiwan",
+      "published_at": "2026-09-20T09:25:00Z"
+    },
+    {
+      "title": "藍綠同搶雲林票...侯友宜再喊交棒李四川：好好做事情 不要鬥來鬥去",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKWHhnODdiZ1M5X19LQjc0dldaVWNVckJwYlJoWEdZX3ZNcHNLNzhwT1FaSVc0Vk9Ua0cwb2VqOG02TFVmempPVkY3UTRPZV9yY21r0gFYQVVfeXFMUGFIVnNFRExaTkljSjIzdHREQThQYXdjSmhyRi1pcGdMY3NDeFhQNWltV0tCVWg3a1Z0V0dpQjBWR3pPMFBOY0J2ZWRxc3I2eEh1VlFGRTdhaA?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News Taiwan",
+      "published_at": "2026-09-20T11:23:34Z"
     }
   ],
   "health": [
@@ -374,12 +374,6 @@
       "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxPbnR5Z3EtcWp3UXF6ZTd0ZVNmdzFNNklhZEh4dGNRWEtlLXhmakdvN0cxV0JMUHg1d2FhSGhwSWw2cnRmTWRHN2xnSnRjZVZQY3VSWC04S3h3cjB4SVZmNmMyMzRROTF1QlJWLW4ycGNPeGxuQ0N2UDMxV2N0UWFYN2RjSVhZWVJ5XzJlaHZsZUoyUThqOWZWakwySjE2RHZzTGRMb1ZQdm9NaW9ISU5nVkVLTnBfOWx0amRXaVlrWHhYNGRTV1N0Z3l1ai1nREk4cXRoa1phRm9rZF9Eck92Tjc4RkYxX0xRV1dKRktHd2pCeDUyVFJTS2pnOGN3NjRELV9yNlUtbjd3cEQ4YXRFUVdvN1JaWFMxQnE4ZXJPbU5JU0padTRQdnk5c3NWamFqX2tuVk01Zw?oc=5&hl=en-US&gl=US&ceid=US:en",
       "source": "Google News Health / Medical",
       "published_at": "2026-09-20T08:58:00Z"
-    },
-    {
-      "title": "沒吃蛋、內臟仍高血脂！醫曝「它們才是關鍵」：戒掉就降膽固醇",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5qbWI0bnVxa1ZpanRjTThyalBhNzZQazVKVzRITUtjdURLMDg3SjdoQVlSX2JwYVl5a3pOZUdYYTc0bG9IeFNFSlRIOEw?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News Health / Medical",
-      "published_at": "2026-09-20T01:41:23Z"
     },
     {
       "title": "新型病毒進入高發期 症狀酷似感冒 鍾南山：全世界沒有特效藥",
@@ -394,22 +388,28 @@
       "published_at": "2026-09-16T08:11:00Z"
     },
     {
-      "title": "年紀大才開始運動還有用嗎？研究揭活動量與糖尿病風險關鍵",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA3TkFKMHFVRzU2WFUxcEVzTl96SGRFb1ExUWR3dHRIU3hIcl9sN3JLM2ZnSUZGcGZFOGFWNkpDMDdpcm1vZ0d5d3d1d0dPbjc0ZWVxME9PblVQTkhGVDkyNlF30gFiQVVfeXFMUDdOQUowcVVHNTZYVTFwRXNOX3pIZEVvUTFRZHd0dEhTeEhyX2w3ckszZmdJRkZwZkU4YVY2SkMwN2lybW9nR3l3d3V3R09uNzRlZXEwT09uVVBOSEZUOTI2UXc?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "source": "Google News Health / Medical",
-      "published_at": "2026-09-20T03:00:33Z"
-    },
-    {
       "title": "天天喝牛奶竟增加攝護腺負擔？研究揭乳製品關聯 醫提醒更該注意這些事",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1PN2FScnJsbE02VnlIa2RKRHNtNjhUVWMzTFJFXzhYQXBYRFl0QVplcXB5Vy1OT285TzhBM012Q3NMRVlsT3pPZm1uLVQ0NnVpWkVBYUM0ZTRITUdaaDFnMld30gFiQVVfeXFMTU83YVJycmxsTTZWeUhrZEpEc202OFRVYzNMUkVfOFhBcFhEWXRBWmVxcHlXLU5PbzlPOEEzTXZDc0xFWWxPek9mbW4tVDQ2dWlaRUFhQzRlNEhNR1poMWcyV3c?oc=5&hl=en-US&gl=US&ceid=US:en",
       "source": "Google News Health / Medical",
       "published_at": "2026-09-19T00:40:54Z"
     },
     {
-      "title": "度假天堂淪陷！傳「這國」愛滋狂飆16倍 官方急發緊急狀態「急做4事」",
-      "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxQdW1OVnk5MkhHMHdtNFFaV1RTYUU2azZpZjhkYzR6UUl1V212VVhIRmF4cWVMOXNmLTlrdDI3M2VUQ19HdHZPbEFzMThYVndjdDBCMUZYU0ZLWmR3V0gyQVRoY0YxSHhRenIwUFpGUFBMdDgxeENxTm1PVWRhQ1ZoLWxrWnFjd1EwbFVhN2xwUjJ4M3h4QW9wVkpEUUl5NnhxRmdweVM1R19ISkRXWlY5emtoZ29XMGJRbHdYRmJNakxBRW00SUY3MkJqZ09ZZkVCWUlxRE9BTUFVdWp3ZDRrNDl0MmRoOUZ0b1NuY2xBMzdncmlvQnhFcE5LcW5QTTVSN1NVRTQzUktBSUJ2bFVzU29iWXVpTkkwLXREaG9Oam1oRXdjeFRWOS1LQnZ1ckl3U010VWIya3FjX3Q1b0tPX1JCdUhMcVhlcXhFOEk5M0drc1VTa0lMQWVUTkZtMGpqX2lB?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "title": "年紀大才開始運動還有用嗎？研究揭活動量與糖尿病風險關鍵",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA3TkFKMHFVRzU2WFUxcEVzTl96SGRFb1ExUWR3dHRIU3hIcl9sN3JLM2ZnSUZGcGZFOGFWNkpDMDdpcm1vZ0d5d3d1d0dPbjc0ZWVxME9PblVQTkhGVDkyNlF30gFiQVVfeXFMUDdOQUowcVVHNTZYVTFwRXNOX3pIZEVvUTFRZHd0dEhTeEhyX2w3ckszZmdJRkZwZkU4YVY2SkMwN2lybW9nR3l3d3V3R09uNzRlZXEwT09uVVBOSEZUOTI2UXc?oc=5&hl=en-US&gl=US&ceid=US:en",
       "source": "Google News Health / Medical",
-      "published_at": "2026-09-19T11:07:00Z"
+      "published_at": "2026-09-20T03:00:33Z"
+    },
+    {
+      "title": "度假天堂淪陷！傳「這國」愛滋狂飆16倍 官方急發緊急狀態「急做4事」",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8wN0Y1eldxME5ycGJMX0F3dTBzUnBITWhUb3UwRmNUUmR0TlVkTGpoc1BIUk8tNnNwN3NoNC05VnIzVzJ2dkZDYUV6em8?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News Health / Medical",
+      "published_at": "2026-09-19T11:49:02Z"
+    },
+    {
+      "title": "車禍僅腳瘀青！58歲婦人數小時後胸悶喘 「心碎症候群」好發停經女性：不能只防乳癌",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE95bHp2dDBNcjV3X3BOaDhIdHV5Skt2V1l6X1c0VUFOYWc4MlFCeDR1Qzh6cXhZMjJHRUlncUExdzcxRlZyek1CSF9ubHFlcWw0bWc?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "source": "Google News Health / Medical",
+      "published_at": "2026-09-20T18:02:00Z"
     }
   ],
   "udn_global": [
@@ -417,46 +417,58 @@
       "title": "欽達的故事（下）：日本「鐘紡大王」在印尼打造的「軍產複合性暴力」",
       "url": "https://global.udn.com/global_vision/story/8664/9762478?from=udn_ch1020_main_index",
       "source": "udn 轉角國際",
-      "published_at": "2026-09-20T13:05:33Z"
+      "published_at": "2026-09-20T19:05:30Z"
     },
     {
       "title": "欽達的故事（上）：印尼「慰安婦」紡織工廠的惡夢與名為「長屋」的慰安所",
       "url": "https://global.udn.com/global_vision/story/8664/9762468?from=udn_ch1020_main_index",
       "source": "udn 轉角國際",
-      "published_at": "2026-09-20T13:05:33Z"
+      "published_at": "2026-09-20T19:05:30Z"
     },
     {
       "title": "2026瑞典國會大選：左翼陣營險勝，左右派的「新共識政治」形成？",
       "url": "https://global.udn.com/global_vision/story/8663/9758843?from=udn_ch1020_main_index",
       "source": "udn 轉角國際",
-      "published_at": "2026-09-20T13:05:33Z"
+      "published_at": "2026-09-20T19:05:30Z"
     },
     {
       "title": "點亮女性主義的火炬：美國鄉村歌手桃莉巴頓與女權先驅史坦能的人生謝幕",
       "url": "https://global.udn.com/global_vision/story/8664/9759894?from=udn_ch1020_main_index",
       "source": "udn 轉角國際",
-      "published_at": "2026-09-20T13:05:33Z"
+      "published_at": "2026-09-20T19:05:30Z"
     },
     {
       "title": "來自海外各地的「引揚」者與台灣引揚者：在台日人戰後《告別南國》的比較與對話",
       "url": "https://global.udn.com/global_vision/story/8664/9738754?from=udn_ch1020_main_index",
       "source": "udn 轉角國際",
-      "published_at": "2026-09-20T13:05:33Z"
+      "published_at": "2026-09-20T19:05:30Z"
     },
     {
       "title": "獨家專訪（上）／烏克蘭無人系統部隊指揮官布羅夫迪：以無人機重塑戰場",
       "url": "https://global.udn.com/global_vision/story/8663/9614238?from=udn_indexrecommend_ch1020",
       "source": "udn 轉角國際",
-      "published_at": "2026-09-20T13:05:33Z"
+      "published_at": "2026-09-20T19:05:30Z"
     },
     {
       "title": "獨家專訪（下）／烏克蘭部隊的數據戰略：指揮官布羅夫迪的經驗，給台海防衛的啟示",
       "url": "https://global.udn.com/global_vision/story/8663/9614284?from=udn_indexrecommend_ch1020",
       "source": "udn 轉角國際",
-      "published_at": "2026-09-20T13:05:33Z"
+      "published_at": "2026-09-20T19:05:30Z"
     }
   ],
   "koc": [
+    {
+      "title": "通義千問開源 Qwen-Image",
+      "url": "https://www.kocpc.com.tw/archives/669600",
+      "source": "電腦王阿達",
+      "published_at": "2026-09-20T17:18:38Z"
+    },
+    {
+      "title": "M5 Ultra 跑分成績曝光：GPU Metal 59% 提升、處理器速度 36 核打敗 96 核 Threadripper",
+      "url": "https://www.kocpc.com.tw/archives/669601",
+      "source": "電腦王阿達",
+      "published_at": "2026-09-20T16:27:42Z"
+    },
     {
       "title": "Google 資安測試 Gemini 自主駭入 3 家企業！事後 Google 表示「沒必要」公開",
       "url": "https://www.kocpc.com.tw/archives/669583",
@@ -486,65 +498,59 @@
       "url": "https://www.kocpc.com.tw/archives/669465",
       "source": "電腦王阿達",
       "published_at": "2026-09-20T01:57:44Z"
-    },
-    {
-      "title": "iPhone 18 Pro 與 iOS 27 驚現畫面死當 Bug，遇到只能強制重啟",
-      "url": "https://www.kocpc.com.tw/archives/669504",
-      "source": "電腦王阿達",
-      "published_at": "2026-09-19T10:30:45Z"
-    },
-    {
-      "title": "SogaType 由台灣團隊開發的 AI 語音輸入文字工具，內建 22.5 萬條台灣詞庫、AI 翻譯功能",
-      "url": "https://www.kocpc.com.tw/archives/669533",
-      "source": "電腦王阿達",
-      "published_at": "2026-09-19T05:48:03Z"
     }
   ],
   "usccg": [
     {
+      "title": "Wings of the Points —— UR, MR, TYP, C1, Bilt, Marriott 转点伙伴汇总【2026.9 更新：TYP新增转点伙伴JL 1:1】",
+      "url": "https://www.uscreditcardguide.com/wings-of-the-points-points-transfer-chart-amex-chase-citi-spg-marriott/",
+      "source": "US Credit Card Guide",
+      "published_at": "2026-09-20T19:05:33Z"
+    },
+    {
+      "title": "Citi ThankYou Point (TYP) 介绍二：点数使用【2026.9 更新：TYP 可以 1:1 转点给 JAL 了！】",
+      "url": "https://www.uscreditcardguide.com/citi-thankyou-point2/",
+      "source": "US Credit Card Guide",
+      "published_at": "2026-09-20T19:05:33Z"
+    },
+    {
+      "title": "转点奖励活动汇总【2026.9 更新：Citi TYP",
+      "url": "https://www.uscreditcardguide.com/point-transfer-promotions/",
+      "source": "US Credit Card Guide",
+      "published_at": "2026-09-20T19:05:33Z"
+    },
+    {
       "title": "Brex 商业信用卡【2026.9 更新：$1,000 开户奖励】",
       "url": "https://www.uscreditcardguide.com/brex-business/",
       "source": "US Credit Card Guide",
-      "published_at": "2026-09-20T13:05:36Z"
+      "published_at": "2026-09-20T19:05:33Z"
     },
     {
       "title": "AmEx Business Checking 商业银行账户【2025.9 更新：35k 开卡奖励】",
       "url": "https://www.uscreditcardguide.com/amex-business-checking/",
       "source": "US Credit Card Guide",
-      "published_at": "2026-09-20T13:05:36Z"
+      "published_at": "2026-09-20T19:05:33Z"
     },
     {
       "title": "Chase Sapphire Reserve (CSR) 信用卡【2026.9 更新：100k 开卡奖励；DoorDash Credit 金额增加范围变广】",
       "url": "https://www.uscreditcardguide.com/chase-sapphire-reserve/",
       "source": "US Credit Card Guide",
-      "published_at": "2026-09-20T13:05:36Z"
+      "published_at": "2026-09-20T19:05:33Z"
     },
     {
       "title": "Chase Sapphire Reserve for Business 商业信用卡【2026.9 更新：200k 开卡奖励；Chase The Edit Credit 将增加到$1,000每年】",
       "url": "https://www.uscreditcardguide.com/chase-sapphire-reserve-for-business/",
       "source": "US Credit Card Guide",
-      "published_at": "2026-09-20T13:05:36Z"
-    },
-    {
-      "title": "CSR 10周年 Chase Offers: JSX, Sixt, Hyatt, IHG",
-      "url": "https://www.uscreditcardguide.com/csr-10zhounian-chase-offers-jsx-sixt-hyatt-ihg/",
-      "source": "US Credit Card Guide",
-      "published_at": "2026-09-20T13:05:36Z"
-    },
-    {
-      "title": "Wells Fargo Choice Privileges 信用卡【2026.9 更新：60k 开卡奖励】",
-      "url": "https://www.uscreditcardguide.com/wells-fargo-choice-privileges/",
-      "source": "US Credit Card Guide",
-      "published_at": "2026-09-20T13:05:36Z"
-    },
-    {
-      "title": "5%季度返现卡激活提醒【2026.9 更新：来激活2026 Q4啦！】",
-      "url": "https://www.uscreditcardguide.com/rotating-category-reminder/",
-      "source": "US Credit Card Guide",
-      "published_at": "2026-09-20T13:05:36Z"
+      "published_at": "2026-09-20T19:05:33Z"
     }
   ],
   "frequent_miler": [
+    {
+      "title": "Fee-free Visa Gift Cards in",
+      "url": "https://frequentmiler.com/easy-5x-fee-free-visa-gift-cards-at-staples/",
+      "source": "Frequent Miler",
+      "published_at": "2026-09-20T13:46:31Z"
+    },
     {
       "title": "Citi adds Japan Airlines as a 1:1 partner, launches 30% transfer bonus",
       "url": "https://frequentmiler.com/citi-adds-japan-airlines-as-a-11-partner-launches-30-transfer-bonus/",
@@ -568,15 +574,15 @@
       "url": "https://frequentmiler.com/wildcard-challenge-journal-greg/",
       "source": "Frequent Miler",
       "published_at": "2026-09-19T00:45:47Z"
-    },
-    {
-      "title": "IHG global promo: Earn up to 3X points October",
-      "url": "https://frequentmiler.com/ihg-global-promo-earn-up-to-3x-points-october-december-starting-with-second-stay/",
-      "source": "Frequent Miler",
-      "published_at": "2026-09-18T23:45:09Z"
     }
   ],
   "frequent_miler_quick_deals": [
+    {
+      "title": "Fee-free Visa Gift Cards in",
+      "url": "https://frequentmiler.com/easy-5x-fee-free-visa-gift-cards-at-staples/",
+      "source": "Frequent Miler Quick Deals",
+      "published_at": "2026-09-20T13:46:31Z"
+    },
     {
       "title": "IHG global promo: Earn up to 3X points October",
       "url": "https://frequentmiler.com/ihg-global-promo-earn-up-to-3x-points-october-december-starting-with-second-stay/",
@@ -600,12 +606,6 @@
       "url": "https://frequentmiler.com/chase-travel%e2%84%a0-chase-offer-spend-600-get-100-back-targeted/",
       "source": "Frequent Miler Quick Deals",
       "published_at": "2026-09-18T17:45:38Z"
-    },
-    {
-      "title": "Singapore Airlines: Premium Economy between US and Asia starting at 59K",
-      "url": "https://frequentmiler.com/singapore-airlines-premium-economybetween-asia-and-us-starting-at-55k/",
-      "source": "Frequent Miler Quick Deals",
-      "published_at": "2026-09-18T15:45:48Z"
     }
   ],
   "uscardforum_top": [
@@ -613,147 +613,147 @@
       "title": "登顶乞力马扎罗",
       "url": "https://www.uscardforum.com/t/topic/533294",
       "source": "美卡論壇 Top",
-      "published_at": "2026-09-20T13:05:37Z"
-    },
-    {
-      "title": "USIMS 永久免费全球低速 eSIM",
-      "url": "https://www.uscardforum.com/t/topic/533185",
-      "source": "美卡論壇 Top",
-      "published_at": "2026-09-20T13:05:37Z"
+      "published_at": "2026-09-20T19:05:34Z"
     },
     {
       "title": "野性东非：坦桑尼亚5日safari + 乞力马扎罗Shira高原单日徒步",
       "url": "https://www.uscardforum.com/t/topic/533264",
       "source": "美卡論壇 Top",
-      "published_at": "2026-09-20T13:05:37Z"
-    },
-    {
-      "title": "疑似Freedom Flex新卡面?",
-      "url": "https://www.uscardforum.com/t/topic/533182",
-      "source": "美卡論壇 Top",
-      "published_at": "2026-09-20T13:05:37Z"
+      "published_at": "2026-09-20T19:05:34Z"
     },
     {
       "title": "iOS Jinx去广告终身版 $0",
       "url": "https://www.uscardforum.com/t/topic/533284",
       "source": "美卡論壇 Top",
-      "published_at": "2026-09-20T13:05:37Z"
+      "published_at": "2026-09-20T19:05:34Z"
     },
     {
       "title": "浅读X Money储蓄条款和其中几个值得注意的坑",
       "url": "https://www.uscardforum.com/t/topic/533210",
       "source": "美卡論壇 Top",
-      "published_at": "2026-09-20T13:05:37Z"
+      "published_at": "2026-09-20T19:05:34Z"
     },
     {
-      "title": "Muse refer 专贴",
-      "url": "https://www.uscardforum.com/t/topic/533238",
+      "title": "SEA将开新的Sapphire Lounge",
+      "url": "https://www.uscardforum.com/t/topic/533395",
       "source": "美卡論壇 Top",
-      "published_at": "2026-09-20T13:05:37Z"
-    },
-    {
-      "title": "老马不让我用自己的钱怎么撕？",
-      "url": "https://www.uscardforum.com/t/topic/533189",
-      "source": "美卡論壇 Top",
-      "published_at": "2026-09-20T13:05:37Z"
+      "published_at": "2026-09-20T19:05:34Z"
     },
     {
       "title": "西雅图State Park里的THC酒店测评+闹心",
       "url": "https://www.uscardforum.com/t/topic/533355",
       "source": "美卡論壇 Top",
-      "published_at": "2026-09-20T13:05:37Z"
-    },
-    {
-      "title": "[自始DEAD] Uber Eats Costco Apple Watch 11 bug 价",
-      "url": "https://www.uscardforum.com/t/topic/533169",
-      "source": "美卡論壇 Top",
-      "published_at": "2026-09-20T13:05:37Z"
+      "published_at": "2026-09-20T19:05:34Z"
     },
     {
       "title": "在国内超市里看着琳琅满目的货架emo了",
       "url": "https://www.uscardforum.com/t/topic/533357",
       "source": "美卡論壇 Top",
-      "published_at": "2026-09-20T13:05:37Z"
+      "published_at": "2026-09-20T19:05:34Z"
     },
     {
-      "title": "最近把耍对象这种事都交给muse了",
-      "url": "https://www.uscardforum.com/t/topic/533295",
+      "title": "Muse refer 专贴",
+      "url": "https://www.uscardforum.com/t/topic/533238",
       "source": "美卡論壇 Top",
-      "published_at": "2026-09-20T13:05:37Z"
-    },
-    {
-      "title": "诚心请教：最近为什么这么多美国学者全职回中国？",
-      "url": "https://www.uscardforum.com/t/topic/533149",
-      "source": "美卡論壇 Top",
-      "published_at": "2026-09-20T13:05:37Z"
-    },
-    {
-      "title": "新人贡献一个CSP的DP",
-      "url": "https://www.uscardforum.com/t/topic/533191",
-      "source": "美卡論壇 Top",
-      "published_at": "2026-09-20T13:05:37Z"
+      "published_at": "2026-09-20T19:05:34Z"
     },
     {
       "title": "muse风很大，有人买meta的call吗",
       "url": "https://www.uscardforum.com/t/topic/533256",
       "source": "美卡論壇 Top",
-      "published_at": "2026-09-20T13:05:37Z"
+      "published_at": "2026-09-20T19:05:34Z"
+    },
+    {
+      "title": "最近把耍对象这种事都交给muse了",
+      "url": "https://www.uscardforum.com/t/topic/533295",
+      "source": "美卡論壇 Top",
+      "published_at": "2026-09-20T19:05:34Z"
+    },
+    {
+      "title": "青岛瑞吉真是不要个碧莲",
+      "url": "https://www.uscardforum.com/t/topic/533443",
+      "source": "美卡論壇 Top",
+      "published_at": "2026-09-20T19:05:34Z"
+    },
+    {
+      "title": "att no tradein Air 几乎免费",
+      "url": "https://www.uscardforum.com/t/topic/533198",
+      "source": "美卡論壇 Top",
+      "published_at": "2026-09-20T19:05:34Z"
+    },
+    {
+      "title": "论如何愉快地租车",
+      "url": "https://www.uscardforum.com/t/topic/533340",
+      "source": "美卡論壇 Top",
+      "published_at": "2026-09-20T19:05:34Z"
+    },
+    {
+      "title": "房产税 appeal 这种填表杂事，以后都扔给 Muse 了",
+      "url": "https://www.uscardforum.com/t/topic/533261",
+      "source": "美卡論壇 Top",
+      "published_at": "2026-09-20T19:05:34Z"
+    },
+    {
+      "title": "amex白/金 史低offer",
+      "url": "https://www.uscardforum.com/t/topic/533348",
+      "source": "美卡論壇 Top",
+      "published_at": "2026-09-20T19:05:34Z"
     }
   ],
   "doctor_of_credit": [
     {
-      "title": "Today Citi has added Japanese Airlines as a transfer partner. The rate you receive depends on the card you hold",
-      "url": "https://www.google.com/search?q=site%3Adoctorofcredit.com%20%22Today%20Citi%20has%20added%20Japanese%20Airlines%20as%20a%20transfer%20partner.%20The%20rate%20you%20receive%20depends%20on%20the%20card%20you%20hold%22",
+      "title": "Connect Credit Union is offering a $400 bonus when you open a new connect checking account and complete the following requirements",
+      "url": "https://www.google.com/search?q=site%3Adoctorofcredit.com%20%22Connect%20Credit%20Union%20is%20offering%20a%20%24400%20bonus%20when%20you%20open%20a%20new%20connect%20checking%20account%20and%20complete%20the%20following%20requirements%22",
       "source": "Doctor of Credit",
-      "published_at": "2026-09-20T13:05:37Z"
+      "published_at": "2026-09-20T19:05:34Z"
     },
     {
-      "title": "Check your Chase Offers to see if you were targeted for 5% back on Kroger store purchases, up to $4.50",
-      "url": "https://www.google.com/search?q=site%3Adoctorofcredit.com%20%22Check%20your%20Chase%20Offers%20to%20see%20if%20you%20were%20targeted%20for%205%25%20back%20on%20Kroger%20store%20purchases%2C%20up%20to%20%244.50%22",
+      "title": "Chartway Federal Credit Union is offering a $250 bonus when you open a new checking account and meet the following requirements in the same calendar month",
+      "url": "https://www.google.com/search?q=site%3Adoctorofcredit.com%20%22Chartway%20Federal%20Credit%20Union%20is%20offering%20a%20%24250%20bonus%20when%20you%20open%20a%20new%20checking%20account%20and%20meet%20the%20following%20requirements%20in%20the%20same%20calendar%20month%22",
       "source": "Doctor of Credit",
-      "published_at": "2026-09-20T13:05:37Z"
+      "published_at": "2026-09-20T19:05:34Z"
     },
     {
-      "title": "Staples stores will be offering fee",
-      "url": "https://www.google.com/search?q=site%3Adoctorofcredit.com%20%22Staples%20stores%20will%20be%20offering%20fee%22",
+      "title": "CommunityAmerica Credit Union is offering a checking bonus of $540 when you open a new checking account and complete the following requirements",
+      "url": "https://www.google.com/search?q=site%3Adoctorofcredit.com%20%22CommunityAmerica%20Credit%20Union%20is%20offering%20a%20checking%20bonus%20of%20%24540%20when%20you%20open%20a%20new%20checking%20account%20and%20complete%20the%20following%20requirements%22",
       "source": "Doctor of Credit",
-      "published_at": "2026-09-20T13:05:37Z"
+      "published_at": "2026-09-20T19:05:34Z"
     },
     {
-      "title": "Update 9/19/26: New links showing Gold 80k + $250 after $3,000 in spend within six months Plat 90k + $300 after $4,000 in spend within six months Hat tip to VeggieTempuras on /r/churning Update 6/17/26: Delta SkyMiles for Business links...",
-      "url": "https://www.google.com/search?q=site%3Adoctorofcredit.com%20%22Update%209/19/26%3A%20New%20links%20showing%20Gold%2080k%20%2B%20%24250%20after%20%243%2C000%20in%20spend%20within%20six%20months%20Plat%2090k%20%2B%20%24300%20after%20%244%2C000%20in%20spend%20within%20six%20months%20Hat%20tip%20to%20VeggieTempuras%20on%20/r/churning%20Update%206/17/26%3A%20Delta%20SkyMiles%20for%20Business%20links...%22",
+      "title": "We previously reported on the Chase Freedom and Freedom Flex 5x categories for the final quarter of 2026. Surprisingly, in activation emails, Chase is revealing the 5x categories for the first quarter of 2027 as well: Grocery Top...",
+      "url": "https://www.google.com/search?q=site%3Adoctorofcredit.com%20%22We%20previously%20reported%20on%20the%20Chase%20Freedom%20and%20Freedom%20Flex%205x%20categories%20for%20the%20final%20quarter%20of%202026.%20Surprisingly%2C%20in%20activation%20emails%2C%20Chase%20is%20revealing%20the%205x%20categories%20for%20the%20first%20quarter%20of%202027%20as%20well%3A%20Grocery%20Top...%22",
       "source": "Doctor of Credit",
-      "published_at": "2026-09-20T13:05:37Z"
+      "published_at": "2026-09-20T19:05:34Z"
     },
     {
-      "title": "Update 9/19/26: Refresh is supposed to go live tomorrow and people are already seeing a new card design live in app. Hat tip /r/creditcards & DDG Reddit user has shared a rumor that the Chase Freedom Flex will be refreshed later...",
-      "url": "https://www.google.com/search?q=site%3Adoctorofcredit.com%20%22Update%209/19/26%3A%20Refresh%20is%20supposed%20to%20go%20live%20tomorrow%20and%20people%20are%20already%20seeing%20a%20new%20card%20design%20live%20in%20app.%20Hat%20tip%20/r/creditcards%20%26%20DDG%20Reddit%20user%20has%20shared%20a%20rumor%20that%20the%20Chase%20Freedom%20Flex%20will%20be%20refreshed%20later...%22",
+      "title": "Get 175,000 points after spending $12,000 within 6 months. Many are getting approved",
+      "url": "https://www.google.com/search?q=site%3Adoctorofcredit.com%20%22Get%20175%2C000%20points%20after%20spending%20%2412%2C000%20within%206%20months.%20Many%20are%20getting%20approved%22",
       "source": "Doctor of Credit",
-      "published_at": "2026-09-20T13:05:37Z"
+      "published_at": "2026-09-20T19:05:34Z"
     },
     {
-      "title": "Earn $75 cash back when you make a new, qualifying wireless payment of at least $100 with AT&T Wireless",
-      "url": "https://www.google.com/search?q=site%3Adoctorofcredit.com%20%22Earn%20%2475%20cash%20back%20when%20you%20make%20a%20new%2C%20qualifying%20wireless%20payment%20of%20at%20least%20%24100%20with%20AT%26T%20Wireless%22",
+      "title": "GBC Bank is offering a $300 bonus when you open a new checking account and complete the following requirements",
+      "url": "https://www.google.com/search?q=site%3Adoctorofcredit.com%20%22GBC%20Bank%20is%20offering%20a%20%24300%20bonus%20when%20you%20open%20a%20new%20checking%20account%20and%20complete%20the%20following%20requirements%22",
       "source": "Doctor of Credit",
-      "published_at": "2026-09-20T13:05:37Z"
+      "published_at": "2026-09-20T19:05:34Z"
     },
     {
-      "title": "Credit Union of the Rockies is offering a $300 bonus when you open a new checking account and complete the following requirements",
-      "url": "https://www.google.com/search?q=site%3Adoctorofcredit.com%20%22Credit%20Union%20of%20the%20Rockies%20is%20offering%20a%20%24300%20bonus%20when%20you%20open%20a%20new%20checking%20account%20and%20complete%20the%20following%20requirements%22",
+      "title": "Park National Bank is offering a $300 or $500 checking bonus. Bonuses are as follows",
+      "url": "https://www.google.com/search?q=site%3Adoctorofcredit.com%20%22Park%20National%20Bank%20is%20offering%20a%20%24300%20or%20%24500%20checking%20bonus.%20Bonuses%20are%20as%20follows%22",
       "source": "Doctor of Credit",
-      "published_at": "2026-09-20T13:05:37Z"
+      "published_at": "2026-09-20T19:05:34Z"
     },
     {
-      "title": "Horizon Bank is offering a $250 bonus when you open a new checking account and complete the following requirements",
-      "url": "https://www.google.com/search?q=site%3Adoctorofcredit.com%20%22Horizon%20Bank%20is%20offering%20a%20%24250%20bonus%20when%20you%20open%20a%20new%20checking%20account%20and%20complete%20the%20following%20requirements%22",
+      "title": "Sterling Bank is offering a $100 bonus when you open a new checking account and complete the following requirements",
+      "url": "https://www.google.com/search?q=site%3Adoctorofcredit.com%20%22Sterling%20Bank%20is%20offering%20a%20%24100%20bonus%20when%20you%20open%20a%20new%20checking%20account%20and%20complete%20the%20following%20requirements%22",
       "source": "Doctor of Credit",
-      "published_at": "2026-09-20T13:05:37Z"
+      "published_at": "2026-09-20T19:05:34Z"
     },
     {
-      "title": "Hudson Valley Federal Credit Union is offering a checking bonus of $750 (value business checking) or $1,500 (Enhanced Business Checking account)",
-      "url": "https://www.google.com/search?q=site%3Adoctorofcredit.com%20%22Hudson%20Valley%20Federal%20Credit%20Union%20is%20offering%20a%20checking%20bonus%20of%20%24750%20%28value%20business%20checking%29%20or%20%241%2C500%20%28Enhanced%20Business%20Checking%20account%29%22",
+      "title": "Mountain America Credit Union is offering a $150 bonus when you open a new BYU checking account and complete the following requirements",
+      "url": "https://www.google.com/search?q=site%3Adoctorofcredit.com%20%22Mountain%20America%20Credit%20Union%20is%20offering%20a%20%24150%20bonus%20when%20you%20open%20a%20new%20BYU%20checking%20account%20and%20complete%20the%20following%20requirements%22",
       "source": "Doctor of Credit",
-      "published_at": "2026-09-20T13:05:37Z"
+      "published_at": "2026-09-20T19:05:34Z"
     }
   ]
 }
