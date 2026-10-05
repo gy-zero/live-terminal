@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T07:00:28Z",
+  "updated_at": "2026-10-05T10:00:31Z",
   "assets": [
     {
       "name": "VOO",
@@ -65,10 +65,10 @@
       "name": "BTC-USD",
       "display_name": "BTCUSD",
       "currency": "USD",
-      "current": 86214.98,
-      "prev": 84763.58,
-      "prev2": 84497.21,
-      "prev3": 84853.1,
+      "current": 85960.0,
+      "prev": 86480.3,
+      "prev2": 84763.58,
+      "prev3": 84497.21,
       "stale": false
     },
     {
