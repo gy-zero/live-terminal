@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T08:00:32Z",
+  "updated_at": "2026-11-25T11:00:33Z",
   "assets": [
     {
       "name": "VOO",
@@ -65,7 +65,7 @@
       "name": "BTC-USD",
       "display_name": "BTCUSD",
       "currency": "USD",
-      "current": 58691.4,
+      "current": 58818.77,
       "prev": 59747.77,
       "prev2": 61210.98,
       "prev3": 61161.91,
@@ -86,9 +86,9 @@
       "display_name": "TPE:0050",
       "currency": "TWD",
       "current": 90.3,
-      "prev": 87.0,
-      "prev2": 84.45,
-      "prev3": 90.2,
+      "prev": 95.7,
+      "prev2": 87.0,
+      "prev3": 84.45,
       "stale": false
     },
     {
